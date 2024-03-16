@@ -26,6 +26,8 @@ GamJam2024_RatDetective/[Uu]ser[Ss]ettings/
 # Visual Studio cache directory
 .vs/
 
+.vscode/
+
 # Gradle cache directory
 .gradle/
 
