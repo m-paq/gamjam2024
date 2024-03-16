@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1837763790	Stop_intro			\Default Work Unit\Stop_intro	
+	3103472528	Play_intro			\Default Work Unit\Play_intro	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	913851649	A et B	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\A et B_FBC78EF0.wem		\Interactive Music Hierarchy\intro music\intro\A et B\A et B		10114628
+	984402340	intro_120bpm_4_4	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\intro_120bpm_4_4_FBC78EF0.wem		\Interactive Music Hierarchy\intro music\intro\intro_120bpm_4_4\intro_120bpm_4_4		4575232
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_intro" ID="{555CC3F3-338F-4BEF-BCB3-57EE0874E8FA}">
+					<ChildrenList>
+						<Action Name="" ID="{B3F51EEC-C8E4-4B54-8861-B79AB67B81BE}" ShortID="705234345">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="intro" ID="{68DE1937-404E-4EFB-983B-A7A8AD4BFB52}" WorkUnitID="{F72AA08C-E239-42C4-9AFE-BFFC78B7B512}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_intro" ID="{CA026C82-5193-4137-B2D2-CD55D3EF7991}">
+					<ChildrenList>
+						<Action Name="" ID="{82F8A2D9-2663-483D-8FCA-D572E5DE7542}" ShortID="21313089">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="intro" ID="{68DE1937-404E-4EFB-983B-A7A8AD4BFB52}" WorkUnitID="{F72AA08C-E239-42C4-9AFE-BFFC78B7B512}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

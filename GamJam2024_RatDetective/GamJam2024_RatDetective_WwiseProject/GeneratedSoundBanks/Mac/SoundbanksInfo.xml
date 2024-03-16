@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{04D9AAF3-297C-A97E-3B11-BC34E4D6FFB6}">
+			<ShortName>Master</ShortName>
+			<Path>Master.bnk</Path>
+			<Media>
+				<File Id="913851649" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A et B.wav</ShortName>
+					<CachePath>SFX/A et B_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="984402340" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>intro_120bpm_4_4.wav</ShortName>
+					<CachePath>SFX/intro_120bpm_4_4_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3103472528" Name="Play_intro" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="913851649"/>
+						<MediaRef Id="984402340"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1837763790" Name="Stop_intro" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2C97BDD9-ED81-96F0-1779-B6CC812DC84F}</FileHash>
+</SoundBanksInfo>
