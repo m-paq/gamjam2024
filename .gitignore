@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+GamJam2024_RatDetective/[Ll]ibrary/
+GamJam2024_RatDetective/[Tt]emp/
+GamJam2024_RatDetective/[Oo]bj/
+GamJam2024_RatDetective/[Bb]uild/
+GamJam2024_RatDetective/[Bb]uilds/
+GamJam2024_RatDetective/[Ll]ogs/
+GamJam2024_RatDetective/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -25,6 +25,8 @@
 
 # Visual Studio cache directory
 .vs/
+
+.vscode/
 
 # Gradle cache directory
 .gradle/
