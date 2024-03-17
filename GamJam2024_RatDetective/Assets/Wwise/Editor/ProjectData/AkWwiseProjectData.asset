@@ -1,0 +1,370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5e7f741c156c8f449ad9c2e9d4bda19, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 0717dc436b97d049b1479a4ea6726197
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 0717dc436b97d049b1479a4ea6726197
+    GuidInternal: 
+    m_lastTime: -8584909715993209390
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 18a23e895bdb6c44b91cfd5f79d53dba
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 18a23e895bdb6c44b91cfd5f79d53dba
+    GuidInternal: 
+    m_lastTime: -8584909747381873192
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 18a23e895bdb6c44b91cfd5f79d53dba
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 6bda6ffd62462b4cbd7080f5257bb8ef
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 6bda6ffd62462b4cbd7080f5257bb8ef
+    GuidInternal: 
+    m_lastTime: -8584909694093386243
+    List:
+    - name: Master
+      guid: e8be9611add24146a614515048207234
+      id: 4056684167
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6bda6ffd62462b4cbd7080f5257bb8ef
+      - ElementName: Master
+        ObjectType: 7
+        guid: e8be9611add24146a614515048207234
+      Path: SoundBanks\Default Work Unit\Master
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a3c93540ca9a304dbb191b0153f0d3d6
+    ParentPath: Events\Default Work Unit
+    guid: a3c93540ca9a304dbb191b0153f0d3d6
+    GuidInternal: 
+    m_lastTime: -8584909694093527894
+    List:
+    - name: Play_Cat_footsteps
+      guid: 8e5dfb3fc6958e4a9131d7cce8684add
+      id: 3334346886
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Play_Cat_footsteps
+        ObjectType: 3
+        guid: 8e5dfb3fc6958e4a9131d7cce8684add
+      Path: Events\Default Work Unit\Play_Cat_footsteps
+      maxAttenuation: 20
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cat_SFX
+      guid: a3f41821fc13024892e5a34046913347
+      id: 3648992414
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Play_Cat_SFX
+        ObjectType: 3
+        guid: a3f41821fc13024892e5a34046913347
+      Path: Events\Default Work Unit\Play_Cat_SFX
+      maxAttenuation: 0
+      maxDuration: 1.0604172
+      minDuration: 0.69177014
+    - name: Play_intro
+      guid: f3c35c558f33ef4bbcb357ee0874e8fa
+      id: 3103472528
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Play_intro
+        ObjectType: 3
+        guid: f3c35c558f33ef4bbcb357ee0874e8fa
+      Path: Events\Default Work Unit\Play_intro
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Player_footsteps
+      guid: 663c9bde13748f459163160bcb4ebd11
+      id: 98439365
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Play_Player_footsteps
+        ObjectType: 3
+        guid: 663c9bde13748f459163160bcb4ebd11
+      Path: Events\Default Work Unit\Play_Player_footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Player_SFX
+      guid: 9046d9cba27a824c9a41f197dfc1ea95
+      id: 1581497221
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Play_Player_SFX
+        ObjectType: 3
+        guid: 9046d9cba27a824c9a41f197dfc1ea95
+      Path: Events\Default Work Unit\Play_Player_SFX
+      maxAttenuation: 0
+      maxDuration: 1.8145912
+      minDuration: 0.667986
+    - name: Play_Rat_Voice_cleaned
+      guid: a3d46a58dc0b53469de083cf36acd0b8
+      id: 2173453881
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Slide_Show_vocal
+        ObjectType: 4
+        guid: b007aa32480d1f44b7753e7c8761514b
+      - ElementName: Play_Rat_Voice_cleaned
+        ObjectType: 3
+        guid: a3d46a58dc0b53469de083cf36acd0b8
+      Path: Events\Default Work Unit\Slide_Show_vocal\Play_Rat_Voice_cleaned
+      maxAttenuation: 0
+      maxDuration: 65.536
+      minDuration: 65.536
+    - name: Play_SFX_bip_main_menu
+      guid: 516a7b09ca273f4f9808859035dd7939
+      id: 206828617
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Play_SFX_bip_main_menu
+        ObjectType: 3
+        guid: 516a7b09ca273f4f9808859035dd7939
+      Path: Events\Default Work Unit\Play_SFX_bip_main_menu
+      maxAttenuation: 0
+      maxDuration: 0.15606907
+      minDuration: 0.10416361
+    - name: Play_Slide_Show
+      guid: 8352386c0e385f46b0c3d954c58755d6
+      id: 3068833655
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Play_Slide_Show
+        ObjectType: 3
+        guid: 8352386c0e385f46b0c3d954c58755d6
+      Path: Events\Default Work Unit\Play_Slide_Show
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Slide_Show_vocal
+      guid: b007aa32480d1f44b7753e7c8761514b
+      id: 1008976622
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Slide_Show_vocal
+        ObjectType: 4
+        guid: b007aa32480d1f44b7753e7c8761514b
+      Path: Events\Default Work Unit\Slide_Show_vocal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_intro
+      guid: 826c02ca93513741b2d2cd55d3ef7991
+      id: 1837763790
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Stop_intro
+        ObjectType: 3
+        guid: 826c02ca93513741b2d2cd55d3ef7991
+      Path: Events\Default Work Unit\Stop_intro
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Rat_Voice_cleaned
+      guid: db3a77e54c357243adf8be97984bb31e
+      id: 2683960267
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Slide_Show_vocal
+        ObjectType: 4
+        guid: b007aa32480d1f44b7753e7c8761514b
+      - ElementName: Stop_Rat_Voice_cleaned
+        ObjectType: 3
+        guid: db3a77e54c357243adf8be97984bb31e
+      Path: Events\Default Work Unit\Slide_Show_vocal\Stop_Rat_Voice_cleaned
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Slide_Show
+      guid: c07e3e8793257d4689ac988b9990eb2f
+      id: 4107896697
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Stop_Slide_Show
+        ObjectType: 3
+        guid: c07e3e8793257d4689ac988b9990eb2f
+      Path: Events\Default Work Unit\Stop_Slide_Show
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 679f1dacdd8e2045a23f6f827b59bc9d
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 679f1dacdd8e2045a23f6f827b59bc9d
+    GuidInternal: 
+    m_lastTime: -8584909747382921244
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 90e669087d47774cbe6bd9f77a360959
+    ParentPath: States\Default Work Unit
+    guid: 90e669087d47774cbe6bd9f77a360959
+    GuidInternal: 
+    m_lastTime: -8584909747380364401
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: df1f3b3a24a80246a4d600d9a91e3a1d
+    ParentPath: Switches\Default Work Unit
+    guid: df1f3b3a24a80246a4d600d9a91e3a1d
+    GuidInternal: 
+    m_lastTime: -8584909747380319288
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 37a8f987862f714ab8e1899e7d23b9af
+    ParentPath: Triggers\Default Work Unit
+    guid: 37a8f987862f714ab8e1899e7d23b9af
+    GuidInternal: 
+    m_lastTime: -8584909747380299315
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 0500000006000000070000000e00000010000000110000001200000092000000930000009b000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

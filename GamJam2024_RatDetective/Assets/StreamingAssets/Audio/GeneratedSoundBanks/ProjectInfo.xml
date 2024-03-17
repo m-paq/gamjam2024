@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="GamJam2024_RatDetective_WwiseProject" GUID="{8190F447-088D-4ACD-A0D8-4B70F28CD147}" Generator="2023.1.2.8444"/>
+	<CacheRoot>../../../../GamJam2024_RatDetective_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{1E395A9B-2FB2-404E-AEA8-78B30BAAA8E7}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../GamJam2024_RatDetective_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{E456ECF7-E4C8-410B-865D-CA01C3E27889}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../GamJam2024_RatDetective_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{A7E034C6-5A8C-4601-90FD-43EFF6F41ED9}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{E8089AC7-366C-923C-1687-F9C3C9C48DB7}</FileHash>
+</ProjectInfo>
