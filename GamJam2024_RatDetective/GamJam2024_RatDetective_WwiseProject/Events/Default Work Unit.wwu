@@ -84,6 +84,10 @@
 					</ChildrenList>
 				</Event>
 				<Folder Name="Gameplay" ID="{A6D4D79E-2845-4635-806C-B8FC6818254D}" ShortID="273469840">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="Stop_Loop_Gameplay" ID="{AE54F6E3-8AD5-472D-BA06-9189FA50E6D7}">
 							<ChildrenList>
@@ -113,6 +117,10 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Slideshow" ID="{0E564BE3-66A1-4E62-BD99-A1B7D7940725}" ShortID="697747525">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="Play_SlideShow_music" ID="{59DFFB27-1288-4DAA-9B7F-604A7913B270}">
 							<ChildrenList>
@@ -142,6 +150,10 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="winning_loosing" ID="{1BDFB213-E0DC-4951-82B1-93C63C7F81C1}" ShortID="235776558">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="Play_winning_music" ID="{3280DA0B-F258-46A3-B382-20C9BB940756}">
 							<ChildrenList>
