@@ -9,6 +9,104 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="89505537" Type="User" Language="SFX" Hash="{F61D4685-DE6C-6D7C-348B-FFA5C2E2185F}">
+			<ShortName>Gameplay</ShortName>
+			<Path>Gameplay.bnk</Path>
+			<Media>
+				<File Id="51728197" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>key 3.wav</ShortName>
+					<CachePath>SFX/key 3_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="110543134" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pluck.wav</ShortName>
+					<CachePath>SFX/pluck_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="200295602" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>fuckedup_hit_hat.wav</ShortName>
+					<CachePath>SFX/fuckedup_hit_hat_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="233568963" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Keys 1 end.wav</ShortName>
+					<CachePath>SFX/Keys 1 end_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="324432072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Keys 2 Mid.wav</ShortName>
+					<CachePath>SFX/Keys 2 Mid_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="371892851" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Basse Mid_90bpm.wav</ShortName>
+					<CachePath>SFX/Basse Mid_90bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="390218809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Atmosphere 3.wav</ShortName>
+					<CachePath>SFX/Atmosphere 3_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="394766038" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Atmosphere 1.wav</ShortName>
+					<CachePath>SFX/Atmosphere 1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="435686109" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pluck Mid.wav</ShortName>
+					<CachePath>SFX/pluck Mid_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="475490246" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Keys 2 end.wav</ShortName>
+					<CachePath>SFX/Keys 2 end_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="481546345" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>woush.wav</ShortName>
+					<CachePath>SFX/woush_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="503910463" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Atmosphere 2.wav</ShortName>
+					<CachePath>SFX/Atmosphere 2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="509087619" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gameplay_intro_90_intro.wav</ShortName>
+					<CachePath>SFX/Gameplay_intro_90_intro_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="821239879" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Basse Ending.wav</ShortName>
+					<CachePath>SFX/Basse Ending_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="833788703" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Flare.wav</ShortName>
+					<CachePath>SFX/Flare_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="868138579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>white noise.wav</ShortName>
+					<CachePath>SFX/white noise_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="960098570" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Key 1 Mid.wav</ShortName>
+					<CachePath>SFX/Key 1 Mid_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1178510115" Name="Play_Loop_Gameplay" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="51728197"/>
+						<MediaRef Id="110543134"/>
+						<MediaRef Id="200295602"/>
+						<MediaRef Id="233568963"/>
+						<MediaRef Id="324432072"/>
+						<MediaRef Id="371892851"/>
+						<MediaRef Id="390218809"/>
+						<MediaRef Id="394766038"/>
+						<MediaRef Id="435686109"/>
+						<MediaRef Id="475490246"/>
+						<MediaRef Id="481546345"/>
+						<MediaRef Id="503910463"/>
+						<MediaRef Id="509087619"/>
+						<MediaRef Id="821239879"/>
+						<MediaRef Id="833788703"/>
+						<MediaRef Id="868138579"/>
+						<MediaRef Id="960098570"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3309871493" Name="Stop_Loop_Gameplay" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E03E4BF2-21B2-B240-E71E-0E77F997D423}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -22,7 +120,40 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{7CC12A70-354A-B8D4-ADA9-2D664B189597}">
+		<SoundBank Id="2312409955" Type="User" Language="SFX" Hash="{B9424FD7-AEFB-4E66-0BA5-EBE0116EB16A}">
+			<ShortName>Slideshow</ShortName>
+			<Path>Slideshow.bnk</Path>
+			<Media>
+				<File Id="255446279" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>2nd_part_120bpm_slide_show.wav</ShortName>
+					<CachePath>SFX/2nd_part_120bpm_slide_show_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="377008696" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Loop_120bpm_Slide_Show.wav</ShortName>
+					<CachePath>SFX/Loop_120bpm_Slide_Show_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="504766142" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mid_120bpm_Slide_Show.wav</ShortName>
+					<CachePath>SFX/Mid_120bpm_Slide_Show_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="564006020" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Intro_120bpm_Slid_Show.wav</ShortName>
+					<CachePath>SFX/Intro_120bpm_Slid_Show_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4206773850" Name="Play_SlideShow_music" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="255446279"/>
+						<MediaRef Id="377008696"/>
+						<MediaRef Id="504766142"/>
+						<MediaRef Id="564006020"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2271158744" Name="Stop_SlideShow_music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{429A6FE0-C409-94CC-3142-244E395E9D45}">
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
@@ -196,5 +327,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{33912E53-C192-E3E5-6FDB-0447BB65B511}</FileHash>
+	<FileHash>{30690313-95E0-D5AE-A974-565CEDAEB387}</FileHash>
 </SoundBanksInfo>
