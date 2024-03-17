@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F5BA6A38-8D6E-4173-8A98-621C58AD497F}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{F5BA6A38-8D6E-4173-8A98-621C58AD497F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Main Menu" ID="{7E93937D-32FF-4F7D-B412-9FBAA4463B69}" ShortID="274680124">
+					<ChildrenList>
+						<Sound Name="SFX_bip_main_menu" ID="{6304991A-FE6E-42F5-813E-E6F71E4A423B}" ShortID="362304881">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1268ECEB-A1B5-4BAA-9F51-5E337D3AAD15}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-500"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Audio Input" ID="{C7F34CE6-9C32-4976-995B-980C9585702C}" ShortID="733350317" PluginName="Wwise Audio Input" CompanyID="0" PluginID="200">
+									<Language>SFX</Language>
+								</SourcePlugin>
+								<AudioFileSource Name="SFX_menu_bip" ID="{91D5CDD1-67F0-451B-9CB6-10C4A5E96FA2}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.00214001207381197"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.119059715676813"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_menu_bip.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="34121741"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_menu_bip" ID="{91D5CDD1-67F0-451B-9CB6-10C4A5E96FA2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Character_SFX" ID="{D1BADA82-117A-4956-8669-B985376C0DB9}" ShortID="565877226">
+					<ChildrenList>
+						<Folder Name="Player_SFX" ID="{AFA3E400-5BBC-485C-982A-CF540F57F6CA}" ShortID="257490571">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Folder Name="Player_noie" ID="{94BDCC92-149C-468C-8F14-F6ED846A0A8C}" ShortID="725908402">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Player_SFX" ID="{65EA6DF4-73D6-4E2D-ABDE-565FC5A87F55}" ShortID="1051904541">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{991DD6CE-3BC3-471E-BC0A-33F44C47A657}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="500"/>
+																	<Property Name="Min" Type="Real64" Value="-500"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Rat denoised" ID="{34C7EDB5-E529-41DA-AF6C-F83C158761D9}" ShortID="231481419">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Rat denoised" ID="{F7D92135-19BD-47F0-8901-2DD4D1AAEC47}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.555456790123457"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.82716049382718"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Rat denoised.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="132257061"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Rat denoised" ID="{F7D92135-19BD-47F0-8901-2DD4D1AAEC47}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Rat denoised_01" ID="{81F26F3D-E7CE-4EFC-9AAE-1AA5F5E812CB}" ShortID="110363036">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Rat denoised" ID="{6A0EE259-2ABA-44F5-91EB-CDA718EDDBD8}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="2.52879012345679"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.88819753086419"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Rat denoised.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="906903380"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Rat denoised" ID="{6A0EE259-2ABA-44F5-91EB-CDA718EDDBD8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Rat denoised_02" ID="{ED596A1E-49FB-4C30-8E15-D39EE76C8BBB}" ShortID="764704566">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Rat denoised" ID="{CEF71357-FFE1-4D71-9084-062C9CA0E6C0}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="4.8237037037037"/>
+																<Property Name="TrimEnd" Type="Real64" Value="5.71535802469135"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Rat denoised.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="144366547"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Rat denoised" ID="{CEF71357-FFE1-4D71-9084-062C9CA0E6C0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Rat denoised_03" ID="{1AD490B3-40E2-4289-A8E9-2DCF87B61C31}" ShortID="239074568">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Rat denoised" ID="{60610C77-F5D0-4D0B-98EA-835F6BE62E30}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="6.1831111111111"/>
+																<Property Name="TrimEnd" Type="Real64" Value="7.51328395061728"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Rat denoised.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="469039578"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Rat denoised" ID="{60610C77-F5D0-4D0B-98EA-835F6BE62E30}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<RandomSequenceContainer Name="Player_footsteps" ID="{30AB0F4A-D769-4631-84C3-56DDEECF9E15}" ShortID="25342793">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1DAA0AC2-EE5B-4254-BA68-F6FCAC1C0D00}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Rat_footstep_v2" ID="{71FA7C8F-4499-4166-96C3-5649578D1F8D}" ShortID="88868010">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{BBF64D55-55BF-477B-9469-A8D4B0C4E647}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Rat_footstep_v2" ID="{0014BAE5-B171-4609-A856-4C8D45AAFA88}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.912852749139143"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.07480565079296"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Rat_footstep_v2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="749082593"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Rat_footstep_v2" ID="{0014BAE5-B171-4609-A856-4C8D45AAFA88}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Rat_footstep_v2_01" ID="{77F69997-A3FB-45B2-AAD1-5F621CEFFBA3}" ShortID="395073654">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{76E190CD-2A7C-4B89-9DE7-1FEC225504DD}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Rat_footstep_v2" ID="{532CC77A-A2FB-4830-9820-42726219278C}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.72598553427381"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.78878984653321"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Rat_footstep_v2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="581385379"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Rat_footstep_v2" ID="{532CC77A-A2FB-4830-9820-42726219278C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Rat_footstep_v2_02" ID="{94B4B0D7-6E19-485F-88BC-6B8A2BBCACBB}" ShortID="826635521">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{222F1A1A-ED0D-483D-B4ED-F9BE8D3052FE}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Rat_footstep_v2" ID="{4F237EEA-D817-48C1-B4D3-5A454006D9E4}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.96903626644941"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.07474476718139"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Rat_footstep_v2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="381737030"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Rat_footstep_v2" ID="{4F237EEA-D817-48C1-B4D3-5A454006D9E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{D193FE67-3397-4AFA-AE8D-2C1A0A6FA3D2}" ShortID="121572162">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="RoomVerb (Custom)" ID="{64357AE8-6D09-4B56-A6F6-AF8E3048A448}" ShortID="908492872" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<PropertyList>
+																			<Property Name="ERLevel" Type="Real32" Value="0"/>
+																			<Property Name="RoomShape" Type="Real32" Value="0"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Cat_SFX" ID="{ACF9FE03-8562-4952-80CA-03069FC5F3CC}" ShortID="63315910">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Folder Name="Cat_noise" ID="{91FDA14B-B202-4F83-8C2A-FF2F93B252D4}" ShortID="145540687">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Cat_SFX" ID="{FFD271FD-033E-4342-8185-512DE2836279}" ShortID="412628018">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{316977E1-138C-4431-885F-E106A96FEF75}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="300"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Chat denoised" ID="{6A0014F7-8606-4E97-AB96-6609F7E04CB2}" ShortID="655370808">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chat denoised" ID="{1F3B4D4A-D7C1-4CB7-9FF6-9986A9DE32CA}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.440144386167574"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.32187421931736"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Chat denoised.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="955296772"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chat denoised" ID="{1F3B4D4A-D7C1-4CB7-9FF6-9986A9DE32CA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chat denoised_01" ID="{A864A76E-F652-434B-8CA9-74E749973781}" ShortID="328499021">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chat denoised" ID="{FBBE6E48-72BE-4F9D-942A-10CD4980D0F9}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="2.16633260711692"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.16723311546842"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Chat denoised.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="632241689"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chat denoised" ID="{FBBE6E48-72BE-4F9D-942A-10CD4980D0F9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chat denoised_02" ID="{DD089208-628E-4912-81C4-F6A1345929A2}" ShortID="248172832">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chat denoised" ID="{F6A9947F-562A-4246-869C-9E7F4FFEC81E}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="4.30524328249818"/>
+																<Property Name="TrimEnd" Type="Real64" Value="5.29243282498185"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Chat denoised.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="675193904"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chat denoised" ID="{F6A9947F-562A-4246-869C-9E7F4FFEC81E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chat denoised_03" ID="{24905EC7-9FF2-4FBC-858C-B2FEE81D6DAE}" ShortID="573649501">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chat denoised" ID="{BA1203A5-843F-4027-9468-845B04C61DA0}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="6.16993464052288"/>
+																<Property Name="TrimEnd" Type="Real64" Value="7.15712418300654"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Chat denoised.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="720945588"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chat denoised" ID="{BA1203A5-843F-4027-9468-845B04C61DA0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chat denoised_04" ID="{50A30CF5-F0C6-4021-8A51-C0CAF22DA49C}" ShortID="485174247">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chat denoised" ID="{577DBE12-39D1-49FE-9367-F2CA5187598F}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="8.240290486565"/>
+																<Property Name="TrimEnd" Type="Real64" Value="9.14521423384168"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Chat denoised.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="138615431"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chat denoised" ID="{577DBE12-39D1-49FE-9367-F2CA5187598F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chat denoised_05" ID="{91D8B593-90B8-41CD-A701-6A4C898A3A39}" ShortID="957755110">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chat denoised" ID="{A62366CC-FEED-47DC-B1E1-192B25E96E15}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="10.2283805374001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="11.0510384894699"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Chat denoised.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="174974156"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chat denoised" ID="{A62366CC-FEED-47DC-B1E1-192B25E96E15}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<RandomSequenceContainer Name="Cat_footsteps" ID="{8DEE384A-4225-4F98-AE14-482359FB1BA1}" ShortID="186319276">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{50511FD0-3DB5-4E79-A297-57389C3CE756}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="500"/>
+															<Property Name="Min" Type="Real64" Value="-500"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FF4E219E-6A77-4392-B97D-BF99105546AA}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-400"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{F1B65F25-CF4E-41F2-A748-D80E6A88808F}" ShortID="530734551">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="20"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{65B11864-0D05-4CF9-AD1B-F18DE24D5BAA}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>20</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="LowPassFilter" ID="{B0517864-630C-4B06-8023-36E4F71C9A8C}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="65537"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>20</XPos>
+																			<YPos>100</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Cat_footsteps_02" ID="{F9983263-AD7C-48F6-9CF1-7FA8B8A54CA4}" ShortID="350767433">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{35A0FAB9-706D-41B7-8A01-118C94C88484}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cat_footsteps" ID="{06398A61-5CA7-4ADD-91C1-37F660B85F00}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.04825218494979"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.15903045202456"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Cat_footsteps.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="930738643"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Cat_footsteps" ID="{06398A61-5CA7-4ADD-91C1-37F660B85F00}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Cat_footsteps_01" ID="{27FBAF4D-EAC5-45D5-AE59-0C4C0E77CDF6}" ShortID="187478401">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2072CBCC-BA78-49FC-9071-FBD8354CC093}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cat_footsteps" ID="{107BA2C2-7933-425C-BB4D-6C8B17B9004B}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.39507237980468"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.52815269765742"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Cat_footsteps.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="76216242"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Cat_footsteps" ID="{107BA2C2-7933-425C-BB4D-6C8B17B9004B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Cat_footsteps" ID="{A3DEE776-9BF7-4399-B7CE-9BD6D2872AA9}" ShortID="112474747">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3B957EF0-38D9-4A50-809B-1A386321773C}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cat_footsteps" ID="{DCA2B697-EB02-4137-AA76-F13D084EE789}">
+													<PropertyList>
+														<Property Name="LoopEnd" Type="Real64" Value="2.8794731725755"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.78241185848934"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.9345373950209"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Cat_footsteps.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="569627993"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Cat_footsteps" ID="{DCA2B697-EB02-4137-AA76-F13D084EE789}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
