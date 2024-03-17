@@ -6,12 +6,32 @@
 				<SoundBank Name="Master" ID="{1196BEE8-D2AD-4641-A614-515048207234}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Stop_intro" ID="{CA026C82-5193-4137-B2D2-CD55D3EF7991}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Rat_Voice_cleaned" ID="{E5773ADB-354C-4372-ADF8-BE97984BB31E}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_footsteps" ID="{DE9B3C66-7413-458F-9163-160BCB4EBD11}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rat_Voice_cleaned" ID="{586AD4A3-0BDC-4653-9DE0-83CF36ACD0B8}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Slide_Show" ID="{6C385283-380E-465F-B0C3-D954C58755D6}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Slide_Show" ID="{873E7EC0-2593-467D-89AC-988B9990EB2F}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cat_SFX" ID="{2118F4A3-13FC-4802-92E5-A34046913347}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cat_footsteps" ID="{3FFB5D8E-95C6-4A8E-9131-D7CCE8684ADD}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_intro" ID="{555CC3F3-338F-4BEF-BCB3-57EE0874E8FA}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_SFX" ID="{CBD94690-7AA2-4C82-9A41-F197DFC1EA95}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_bip_main_menu" ID="{097B6A51-27CA-4F3F-9808-859035DD7939}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Slideshow" ID="{9E50DF48-15D5-4659-B653-2C467BF8E05F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_SlideShow_music" ID="{E48D06AF-BEFF-4440-8F7F-DAC90901581F}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SlideShow_music" ID="{59DFFB27-1288-4DAA-9B7F-604A7913B270}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Gameplay" ID="{08C6B78E-A002-4421-B021-8894108660CD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_Loop_Gameplay" ID="{AE54F6E3-8AD5-472D-BA06-9189FA50E6D7}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Loop_Gameplay" ID="{E826C768-FD31-489E-AD96-89652F892707}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9a68e8ba9dfe4e4c92990ba074d46f9, type: 3}
+  m_Name: 873E7EC0-2593-467D-89AC-988B9990EB2F
+  m_EditorClassIdentifier: 
+  objectName: Stop_Slide_Show
+  id: 4107896697
+  guid: 873E7EC0-2593-467D-89AC-988B9990EB2F

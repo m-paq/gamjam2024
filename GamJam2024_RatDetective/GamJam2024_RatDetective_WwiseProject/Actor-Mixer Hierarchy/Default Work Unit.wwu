@@ -202,6 +202,37 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<Sound Name="Rat Voice cleaned" ID="{DABEE444-D640-4686-A37C-C33FC65A4F6F}" ShortID="167128940">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A742C8DE-44F9-43C5-9267-55AFA7746D30}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{893EA218-DB5B-446C-B91C-FD5F79D53DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Rat Voice cleaned" ID="{D06439A3-C418-42D7-A7F8-3CCB90D6EC41}">
+													<Language>SFX</Language>
+													<AudioFile>Rat Voice cleaned.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="197481301"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Rat Voice cleaned" ID="{D06439A3-C418-42D7-A7F8-3CCB90D6EC41}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</Folder>
 								<RandomSequenceContainer Name="Player_footsteps" ID="{30AB0F4A-D769-4631-84C3-56DDEECF9E15}" ShortID="25342793">
