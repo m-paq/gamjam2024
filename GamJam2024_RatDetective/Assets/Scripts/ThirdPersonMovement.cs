@@ -9,6 +9,7 @@ public class ThirdPersonMovement : MonoBehaviour
 {
     private Transform _mainCamera;
     private Rigidbody _rigidbody;
+    private Animator _animator;
 
     [Header("GroundDetection")]
     public float detectionLenght;
@@ -39,6 +40,12 @@ public class ThirdPersonMovement : MonoBehaviour
 
     private void Start()
     {
+        _animator = GetComponentInChildren<Animator>();
+        if(_animator == null)
+        {
+            Debug.LogError("Can't find animator component");
+        }  
+
         _mainCamera = GameObject.FindWithTag("MainCamera").transform;
         if(_mainCamera == null)
         {
@@ -54,7 +61,7 @@ public class ThirdPersonMovement : MonoBehaviour
     private void Update() 
     {
         MyInput();  
-
+        Debug.Log(_readyToJump);
         SpeedControl();
         _rigidbody.drag = Grounded ? groundDrag : 0f;
     }
@@ -70,23 +77,6 @@ public class ThirdPersonMovement : MonoBehaviour
         Grounded = Physics.Raycast(transform.position, -transform.up, detectionLenght, whatIsGround);
     }
 
-    // private void Move()
-    // {
-    //     float _horizontalInput = Input.GetAxisRaw("Horizontal");
-    //     float _verticalInput = Input.GetAxisRaw("Vertical");
-    //     Vector3 direction = new Vector3(_horizontalInput, 0f, _verticalInput).normalized;
-
-    //     if(direction.magnitude >= 0.1f)
-    //     {
-    //         float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + _mainCamera.eulerAngles.y;
-    //         float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref _turnSmoothVelocity, TurnSmoothTime);
-    //         transform.rotation = Quaternion.Euler(0f, angle, 0f);
-
-    //         Vector3 moveDirection = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-    //         _rigidbody.MovePosition(_rigidbody.position + Speed * Time.fixedDeltaTime * moveDirection.normalized);
-    //     }
-    // }
-
     private void MyInput()
     {
         _horizontalInput = Input.GetAxisRaw("Horizontal");
@@ -95,6 +85,7 @@ public class ThirdPersonMovement : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && _readyToJump && Grounded)
         {
             _readyToJump = false;
+            _animator.SetBool("Jumping", !_readyToJump);
 
             Jump();
 
@@ -120,6 +111,14 @@ public class ThirdPersonMovement : MonoBehaviour
         if (Grounded)
         {
             _rigidbody.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
+            if(moveDirection.normalized != Vector3.zero)
+            {
+                _animator.SetBool("Walking", true);
+            }
+            else
+            {
+                _animator.SetBool("Walking", false);
+            }
         }
         else
         {
@@ -151,5 +150,7 @@ public class ThirdPersonMovement : MonoBehaviour
     private void ResetJump()
     {
         _readyToJump = true;
+        _animator.SetBool("Jumping", !_readyToJump);
+
     }
 }
