@@ -3,13 +3,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	206828617	Play_SFX_bip_main_menu			\Default Work Unit\Play_SFX_bip_main_menu	
 	1581497221	Play_Player_SFX			\Default Work Unit\Play_Player_SFX	
 	1837763790	Stop_intro			\Default Work Unit\Stop_intro	
-	2173453881	Play_Rat_Voice_cleaned			\Default Work Unit\Slide_Show_vocal\Play_Rat_Voice_cleaned	
-	2683960267	Stop_Rat_Voice_cleaned			\Default Work Unit\Slide_Show_vocal\Stop_Rat_Voice_cleaned	
-	3068833655	Play_Slide_Show			\Default Work Unit\Play_Slide_Show	
+	2173453881	Play_Rat_Voice_cleaned			\Default Work Unit\Play_Rat_Voice_cleaned	
+	2683960267	Stop_Rat_Voice_cleaned			\Default Work Unit\Stop_Rat_Voice_cleaned	
 	3103472528	Play_intro			\Default Work Unit\Play_intro	
 	3334346886	Play_Cat_footsteps			\Default Work Unit\Play_Cat_footsteps	
 	3648992414	Play_Cat_SFX			\Default Work Unit\Play_Cat_SFX	
-	4107896697	Stop_Slide_Show			\Default Work Unit\Stop_Slide_Show	
 
 Effect plug-ins	ID	Name	Type				Notes
 	908492872	RoomVerb (Custom)	Wwise RoomVerb			
@@ -23,13 +21,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	174974156	Chat denoised_05	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Chat denoised_55E242C3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_SFX\Cat_SFX\Cat_noise\Cat_SFX\Chat denoised_05		79072
 	197481301	Rat Voice cleaned	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Rat Voice cleaned_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_SFX\Player_SFX\Player_noie\Rat Voice cleaned		6291616
 	381737030	Rat_footstep_v2_02	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Rat_footstep_v2_1156E0AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_SFX\Player_SFX\Player_footsteps\Rat_footstep_v2_02		18740
-	441443952	2nd_part_120bpm_slide_show	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\2nd_part_120bpm_slide_show_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Slide_Show\2nd_part_120bpm_slide_show\2nd_part_120bpm_slide_show		3072160
 	469039578	Rat denoised_03	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Rat denoised_EA37E7C8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_SFX\Player_SFX\Player_noie\Player_SFX\Rat denoised_03		127794
 	569627993	Cat_footsteps	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Cat_footsteps_5138AB86.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_SFX\Cat_SFX\Cat_footsteps\Cat_footsteps		29304
 	581385379	Rat_footstep_v2_01	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Rat_footstep_v2_FF51458C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_SFX\Player_SFX\Player_footsteps\Rat_footstep_v2_01		11176
-	598609665	Loop_120bpm_Slide_Show	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Loop_120bpm_Slide_Show_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Slide_Show\Loop_120bpm_Slide_Show\Loop_120bpm_Slide_Show		3072160
-	611612269	Mid_120bpm_Slide_Show	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Mid_120bpm_Slide_Show_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Slide_Show\Mid_120bpm_Slide_Show\Mid_120bpm_Slide_Show		3072160
-	624515407	Intro_120bpm_Slid_Show	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Intro_120bpm_Slid_Show_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Slide_Show\Intro_120bpm_Slid_Show\Intro_120bpm_Slid_Show		527392
 	632241689	Chat denoised_01	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Chat denoised_0F509B8C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_SFX\Cat_SFX\Cat_noise\Cat_SFX\Chat denoised_01		96182
 	675193904	Chat denoised_02	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Chat denoised_1C3334E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_SFX\Cat_SFX\Cat_noise\Cat_SFX\Chat denoised_02		94866
 	720945588	Chat denoised_03	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Chat denoised_C57FB26E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_SFX\Cat_SFX\Cat_noise\Cat_SFX\Chat denoised_03		94866
