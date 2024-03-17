@@ -36,9 +36,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: metarig|monter (1)
-      takeName: metarig|monter
-      internalID: -6697473546723688254
+      name: metarig|jump
+      takeName: metarig|jump
+      internalID: -8284908221344111450
       firstFrame: 0
       lastFrame: 90
       wrapMode: 0
@@ -65,11 +65,40 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: metarig|marche.001
-      takeName: metarig|marche.001
-      internalID: 4134544420356540722
+      name: metarig|marche
+      takeName: metarig|marche
+      internalID: -6697473546723688254
       firstFrame: 0
       lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|Mesh_0Action
+      takeName: metarig|Mesh_0Action
+      internalID: 1089504406178040186
+      firstFrame: 0
+      lastFrame: 0
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
