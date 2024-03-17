@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6bda6ffd62462b4cbd7080f5257bb8ef
     GuidInternal: 
-    m_lastTime: -8584909598132021012
+    m_lastTime: -8584909182260038465
     List:
+    - name: Gameplay
+      guid: 8eb7c60802a02144b0218894108660cd
+      id: 89505537
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6bda6ffd62462b4cbd7080f5257bb8ef
+      - ElementName: Gameplay
+        ObjectType: 7
+        guid: 8eb7c60802a02144b0218894108660cd
+      Path: SoundBanks\Default Work Unit\Gameplay
     - name: Master
       guid: e8be9611add24146a614515048207234
       id: 4056684167
@@ -82,6 +96,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: e8be9611add24146a614515048207234
       Path: SoundBanks\Default Work Unit\Master
+    - name: Slideshow
+      guid: 48df509ed5155946b6532c467bf8e05f
+      id: 2312409955
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6bda6ffd62462b4cbd7080f5257bb8ef
+      - ElementName: Slideshow
+        ObjectType: 7
+        guid: 48df509ed5155946b6532c467bf8e05f
+      Path: SoundBanks\Default Work Unit\Slideshow
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -94,8 +122,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a3c93540ca9a304dbb191b0153f0d3d6
     GuidInternal: 
-    m_lastTime: -8584909598136202386
+    m_lastTime: -8584909182275686766
     List:
+    - name: Gameplay
+      guid: 9ed7d4a645283546806cb8fc6818254d
+      id: 89505537
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: 9ed7d4a645283546806cb8fc6818254d
+      Path: Events\Default Work Unit\Gameplay
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Cat_footsteps
       guid: 8e5dfb3fc6958e4a9131d7cce8684add
       id: 3334346886
@@ -144,6 +189,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: f3c35c558f33ef4bbcb357ee0874e8fa
       Path: Events\Default Work Unit\Play_intro
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Loop_Gameplay
+      guid: 68c726e831fd9e48ad9689652f892707
+      id: 1178510115
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: 9ed7d4a645283546806cb8fc6818254d
+      - ElementName: Play_Loop_Gameplay
+        ObjectType: 3
+        guid: 68c726e831fd9e48ad9689652f892707
+      Path: Events\Default Work Unit\Gameplay\Play_Loop_Gameplay
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -198,6 +263,43 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.15606907
       minDuration: 0.10416361
+    - name: Play_SlideShow_music
+      guid: 27fbdf598812aa4d9b7f604a7913b270
+      id: 4206773850
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Slideshow
+        ObjectType: 4
+        guid: e34b560ea166624ebd99a1b7d7940725
+      - ElementName: Play_SlideShow_music
+        ObjectType: 3
+        guid: 27fbdf598812aa4d9b7f604a7913b270
+      Path: Events\Default Work Unit\Slideshow\Play_SlideShow_music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Slideshow
+      guid: e34b560ea166624ebd99a1b7d7940725
+      id: 2312409955
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Slideshow
+        ObjectType: 4
+        guid: e34b560ea166624ebd99a1b7d7940725
+      Path: Events\Default Work Unit\Slideshow
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_intro
       guid: 826c02ca93513741b2d2cd55d3ef7991
       id: 1837763790
@@ -212,6 +314,46 @@ MonoBehaviour:
         ObjectType: 3
         guid: 826c02ca93513741b2d2cd55d3ef7991
       Path: Events\Default Work Unit\Stop_intro
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Loop_Gameplay
+      guid: e3f654aed58a2d47ba069189fa50e6d7
+      id: 3309871493
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: 9ed7d4a645283546806cb8fc6818254d
+      - ElementName: Stop_Loop_Gameplay
+        ObjectType: 3
+        guid: e3f654aed58a2d47ba069189fa50e6d7
+      Path: Events\Default Work Unit\Gameplay\Stop_Loop_Gameplay
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_SlideShow_music
+      guid: af068de4ffbe40448f7fdac90901581f
+      id: 2271158744
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Slideshow
+        ObjectType: 4
+        guid: e34b560ea166624ebd99a1b7d7940725
+      - ElementName: Stop_SlideShow_music
+        ObjectType: 3
+        guid: af068de4ffbe40448f7fdac90901581f
+      Path: Events\Default Work Unit\Slideshow\Stop_SlideShow_music
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -272,7 +414,7 @@ MonoBehaviour:
     m_lastTime: -8584909598131996624
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000001100000012000000
+  ExpandedWaapiItemIds: 05000000060000000e0000001200000013000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

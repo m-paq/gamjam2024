@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2271158744	Stop_SlideShow_music			\Default Work Unit\Slideshow\Stop_SlideShow_music	
+	4206773850	Play_SlideShow_music			\Default Work Unit\Slideshow\Play_SlideShow_music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	255446279	2nd_part_120bpm_slide_show	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\2nd_part_120bpm_slide_show_FBC78EF0.wem		\Interactive Music Hierarchy\SlideShow\SlideShow_music\2nd_part_120bpm_slide_show\2nd_part_120bpm_slide_show		3072160
+	377008696	Loop_120bpm_Slide_Show	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Loop_120bpm_Slide_Show_FBC78EF0.wem		\Interactive Music Hierarchy\SlideShow\SlideShow_music\Loop_120bpm_Slide_Show\Loop_120bpm_Slide_Show		3072160
+	504766142	Mid_120bpm_Slide_Show	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Mid_120bpm_Slide_Show_FBC78EF0.wem		\Interactive Music Hierarchy\SlideShow\SlideShow_music\Mid_120bpm_Slide_Show\Mid_120bpm_Slide_Show		3072160
+	564006020	Intro_120bpm_Slid_Show	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Intro_120bpm_Slid_Show_FBC78EF0.wem		\Interactive Music Hierarchy\SlideShow\SlideShow_music\Intro_120bpm_Slid_Show\Intro_120bpm_Slid_Show		527392
+
