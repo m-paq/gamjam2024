@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1178510115	Play_Loop_Gameplay			\Default Work Unit\Gameplay\Play_Loop_Gameplay	
+	3309871493	Stop_Loop_Gameplay			\Default Work Unit\Gameplay\Stop_Loop_Gameplay	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	51728197	Key 1 Mid	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\key 3_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\Key 1 Mid		2048160
+	110543134	pluck	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\pluck_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\pluck		2048156
+	200295602	fuckedup_hit_hat	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\fuckedup_hit_hat_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\fuckedup_hit_hat		1024160
+	233568963	Keys 1 end	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\Keys 1 end_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\Keys 1 end		2042824
+	324432072	Key 1 Mid	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\Keys 2 Mid_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\Key 1 Mid		2042824
+	371892851	Basse Ending	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\Basse Mid_90bpm_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\Basse Ending		2048156
+	390218809	Atmosphere 3	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\Atmosphere 3_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\Atmosphere 3		1024156
+	394766038	Atmosphere 1	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\Atmosphere 1_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\Atmosphere 1		2048156
+	435686109	pluck Mid	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\pluck Mid_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\pluck Mid		2048156
+	475490246	Keys 1 end	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\Keys 2 end_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\Keys 1 end		2042824
+	481546345	woush	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\woush_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\woush		1408160
+	503910463	Atmosphere 2	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\Atmosphere 2_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\Atmosphere 2		2048156
+	509087619	Gameplay_intro_90_intro	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\Gameplay_intro_90_intro_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Intro_gameplay\Gameplay_intro_90_intro		2048160
+	821239879	Basse Ending	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\Basse Ending_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\Basse Ending		2048156
+	833788703	Flare	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\Flare_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\Flare		2048156
+	868138579	white noise	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\white noise_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\white noise		1024156
+	960098570	Key 1 Mid	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Mac\SFX\Key 1 Mid_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\Key 1 Mid		2042824
+

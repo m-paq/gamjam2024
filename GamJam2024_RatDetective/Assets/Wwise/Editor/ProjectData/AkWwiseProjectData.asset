@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 0717dc436b97d049b1479a4ea6726197
     GuidInternal: 
-    m_lastTime: -8584909715993209390
+    m_lastTime: -8584909747380284258
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 18a23e895bdb6c44b91cfd5f79d53dba
     GuidInternal: 
-    m_lastTime: -8584909715995726212
+    m_lastTime: -8584909747381873192
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6bda6ffd62462b4cbd7080f5257bb8ef
     GuidInternal: 
-    m_lastTime: -8584909715993244694
+    m_lastTime: -8584909219652843170
     List:
+    - name: Gameplay
+      guid: 8eb7c60802a02144b0218894108660cd
+      id: 89505537
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6bda6ffd62462b4cbd7080f5257bb8ef
+      - ElementName: Gameplay
+        ObjectType: 7
+        guid: 8eb7c60802a02144b0218894108660cd
+      Path: SoundBanks\Default Work Unit\Gameplay
     - name: Master
       guid: e8be9611add24146a614515048207234
       id: 4056684167
@@ -82,6 +96,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: e8be9611add24146a614515048207234
       Path: SoundBanks\Default Work Unit\Master
+    - name: Slideshow
+      guid: 48df509ed5155946b6532c467bf8e05f
+      id: 2312409955
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6bda6ffd62462b4cbd7080f5257bb8ef
+      - ElementName: Slideshow
+        ObjectType: 7
+        guid: 48df509ed5155946b6532c467bf8e05f
+      Path: SoundBanks\Default Work Unit\Slideshow
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -94,8 +122,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a3c93540ca9a304dbb191b0153f0d3d6
     GuidInternal: 
-    m_lastTime: -8584909715998136279
+    m_lastTime: -8584909219652778042
     List:
+    - name: Gameplay
+      guid: 9ed7d4a645283546806cb8fc6818254d
+      id: 89505537
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: 9ed7d4a645283546806cb8fc6818254d
+      Path: Events\Default Work Unit\Gameplay
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Cat_footsteps
       guid: 8e5dfb3fc6958e4a9131d7cce8684add
       id: 3334346886
@@ -144,6 +189,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: f3c35c558f33ef4bbcb357ee0874e8fa
       Path: Events\Default Work Unit\Play_intro
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Loop_Gameplay
+      guid: 68c726e831fd9e48ad9689652f892707
+      id: 1178510115
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: 9ed7d4a645283546806cb8fc6818254d
+      - ElementName: Play_Loop_Gameplay
+        ObjectType: 3
+        guid: 68c726e831fd9e48ad9689652f892707
+      Path: Events\Default Work Unit\Gameplay\Play_Loop_Gameplay
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -198,6 +263,43 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.15606907
       minDuration: 0.10416361
+    - name: Play_SlideShow_music
+      guid: 27fbdf598812aa4d9b7f604a7913b270
+      id: 4206773850
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Slideshow
+        ObjectType: 4
+        guid: e34b560ea166624ebd99a1b7d7940725
+      - ElementName: Play_SlideShow_music
+        ObjectType: 3
+        guid: 27fbdf598812aa4d9b7f604a7913b270
+      Path: Events\Default Work Unit\Slideshow\Play_SlideShow_music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Slideshow
+      guid: e34b560ea166624ebd99a1b7d7940725
+      id: 2312409955
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Slideshow
+        ObjectType: 4
+        guid: e34b560ea166624ebd99a1b7d7940725
+      Path: Events\Default Work Unit\Slideshow
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_intro
       guid: 826c02ca93513741b2d2cd55d3ef7991
       id: 1837763790
@@ -215,6 +317,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_Loop_Gameplay
+      guid: e3f654aed58a2d47ba069189fa50e6d7
+      id: 3309871493
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: 9ed7d4a645283546806cb8fc6818254d
+      - ElementName: Stop_Loop_Gameplay
+        ObjectType: 3
+        guid: e3f654aed58a2d47ba069189fa50e6d7
+      Path: Events\Default Work Unit\Gameplay\Stop_Loop_Gameplay
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_SlideShow_music
+      guid: af068de4ffbe40448f7fdac90901581f
+      id: 2271158744
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Slideshow
+        ObjectType: 4
+        guid: e34b560ea166624ebd99a1b7d7940725
+      - ElementName: Stop_SlideShow_music
+        ObjectType: 3
+        guid: af068de4ffbe40448f7fdac90901581f
+      Path: Events\Default Work Unit\Slideshow\Stop_SlideShow_music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -227,7 +369,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 679f1dacdd8e2045a23f6f827b59bc9d
     GuidInternal: 
-    m_lastTime: -8584909715998094176
+    m_lastTime: -8584909747382921244
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -241,7 +383,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 90e669087d47774cbe6bd9f77a360959
     GuidInternal: 
-    m_lastTime: -8584909715993234545
+    m_lastTime: -8584909747380364401
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -255,7 +397,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: df1f3b3a24a80246a4d600d9a91e3a1d
     GuidInternal: 
-    m_lastTime: -8584909715993224479
+    m_lastTime: -8584909747380319288
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -269,10 +411,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 37a8f987862f714ab8e1899e7d23b9af
     GuidInternal: 
-    m_lastTime: -8584909715993214428
+    m_lastTime: -8584909747380299315
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000001100000012000000
+  ExpandedWaapiItemIds: 05000000060000000e0000001200000013000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

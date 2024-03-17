@@ -83,6 +83,64 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Gameplay" ID="{A6D4D79E-2845-4635-806C-B8FC6818254D}" ShortID="273469840">
+					<ChildrenList>
+						<Event Name="Stop_Loop_Gameplay" ID="{AE54F6E3-8AD5-472D-BA06-9189FA50E6D7}">
+							<ChildrenList>
+								<Action Name="" ID="{CF358471-FAC9-4EF9-9D3E-FAD2092C3915}" ShortID="865970748">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Loop_Gameplay" ID="{5E7BB434-4585-4B55-BB1B-281EE8395E2E}" WorkUnitID="{37D127DF-F2B8-4772-B946-2EEEAD37D994}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Loop_Gameplay" ID="{E826C768-FD31-489E-AD96-89652F892707}">
+							<ChildrenList>
+								<Action Name="" ID="{8BC58492-7A9F-43F8-A48A-D51FDD149D2E}" ShortID="249268236">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Loop_Gameplay" ID="{5E7BB434-4585-4B55-BB1B-281EE8395E2E}" WorkUnitID="{37D127DF-F2B8-4772-B946-2EEEAD37D994}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Slideshow" ID="{0E564BE3-66A1-4E62-BD99-A1B7D7940725}" ShortID="697747525">
+					<ChildrenList>
+						<Event Name="Play_SlideShow_music" ID="{59DFFB27-1288-4DAA-9B7F-604A7913B270}">
+							<ChildrenList>
+								<Action Name="" ID="{E9C68863-BEF5-499A-AA49-910455982C2B}" ShortID="58945309">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SlideShow_music" ID="{E08D59B6-5D81-4B2C-8601-FB0CCFF65658}" WorkUnitID="{F65A9DC2-19AD-47E3-9321-CEF88CA8D54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SlideShow_music" ID="{E48D06AF-BEFF-4440-8F7F-DAC90901581F}">
+							<ChildrenList>
+								<Action Name="" ID="{DDCFAF13-EFBC-4250-A11B-C06F5C0BC692}" ShortID="13838346">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SlideShow_music" ID="{E08D59B6-5D81-4B2C-8601-FB0CCFF65658}" WorkUnitID="{F65A9DC2-19AD-47E3-9321-CEF88CA8D54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
