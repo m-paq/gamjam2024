@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5832712433683055618}
@@ -84,7 +84,7 @@ MonoBehaviour:
   maxClimbTime: 3
   detectionLenght: 0.7
   sphereCastRadius: 0.3
-  maxWallLookAngle: 30
+  maxWallLookAngle: 50
 --- !u!54 &8531739707137688477
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -132,9 +132,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.36597282
-  m_Height: 1.2706193
+  m_Height: 1.3400762
   m_Direction: 1
-  m_Center: {x: 0, y: 0.03498012, z: 0}
+  m_Center: {x: 0, y: 0.06970856, z: 0}
 --- !u!1 &3254952054437514316
 GameObject:
   m_ObjectHideFlags: 0
