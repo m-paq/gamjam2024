@@ -4,5 +4,15 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main menu/MainMenu.unity
+    guid: c09f4b0b2a9226946aa44a3dd8ffdfa6
+  - enabled: 1
+    path: Assets/Scenes/Slide_Show.unity
+    guid: 0a97aa759762e7548b5f8aea5d5adb0d
+  - enabled: 1
+    path: Assets/Scenes/CharacterGym.unity
+    guid: aaf9d81eb8159ef49b2457ca60fe5733
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
