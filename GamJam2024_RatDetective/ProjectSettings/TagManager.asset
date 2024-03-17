@@ -15,8 +15,9 @@ TagManager:
   - Water
   - UI
   - Ground
+  - Target
   - WhatIsClimbable
-  - 
+  - Obstruction
   - 
   - 
   - 
