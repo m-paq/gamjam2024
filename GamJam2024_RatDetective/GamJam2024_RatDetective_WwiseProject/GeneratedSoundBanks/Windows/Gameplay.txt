@@ -1,11 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1178510115	Play_Loop_Gameplay			\Default Work Unit\Gameplay\Play_Loop_Gameplay	
 	3309871493	Stop_Loop_Gameplay			\Default Work Unit\Gameplay\Stop_Loop_Gameplay	
+	3704232689	Play_Buzzy_Saw_Lead			\Default Work Unit\Play_Buzzy_Saw_Lead	
+	3857724651	Stop_Buzzy_Saw_Lead			\Default Work Unit\Stop_Buzzy_Saw_Lead	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	51728197	Key 1 Mid	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\key 3_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\Key 1 Mid		2048160
 	110543134	pluck	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\pluck_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\pluck		2048156
 	200295602	fuckedup_hit_hat	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\fuckedup_hit_hat_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\fuckedup_hit_hat		1024160
+	233207683	Buzzy Saw Lead	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Buzzy Saw Lead_B7A2A102.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character_SFX\Buzzy Saw Lead		885464
 	233568963	Keys 1 end	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Keys 1 end_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\Keys 1 end		2042824
 	324432072	Key 1 Mid	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Keys 2 Mid_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\Key 1 Mid		2042824
 	371892851	Basse Ending	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\Basse Mid_90bpm_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\Loop_Gameplay\Gameplay\Basse Ending		2048156

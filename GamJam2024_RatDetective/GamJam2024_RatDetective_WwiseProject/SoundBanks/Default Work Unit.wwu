@@ -28,7 +28,9 @@
 				</SoundBank>
 				<SoundBank Name="Gameplay" ID="{08C6B78E-A002-4421-B021-8894108660CD}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Buzzy_Saw_Lead" ID="{99BDD0A7-F50B-469C-A882-7C8C991CD354}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Loop_Gameplay" ID="{AE54F6E3-8AD5-472D-BA06-9189FA50E6D7}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Buzzy_Saw_Lead" ID="{A33DE435-B8F4-477C-B6BE-CA292214BDC4}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Loop_Gameplay" ID="{E826C768-FD31-489E-AD96-89652F892707}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

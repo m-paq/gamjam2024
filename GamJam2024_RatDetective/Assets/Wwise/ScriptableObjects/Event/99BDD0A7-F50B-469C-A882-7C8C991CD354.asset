@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9a68e8ba9dfe4e4c92990ba074d46f9, type: 3}
+  m_Name: 99BDD0A7-F50B-469C-A882-7C8C991CD354
+  m_EditorClassIdentifier: 
+  objectName: Play_Buzzy_Saw_Lead
+  id: 3704232689
+  guid: 99BDD0A7-F50B-469C-A882-7C8C991CD354
