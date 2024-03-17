@@ -41,7 +41,7 @@ public class slideshow1 : MonoBehaviour
         if(currentImage >= imageArray.Length)
             currentImage = 0;
     }
- 
+
     // Start is called before the first frame update
     void Start()
     {

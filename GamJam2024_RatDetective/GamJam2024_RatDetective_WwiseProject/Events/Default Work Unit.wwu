@@ -83,6 +83,60 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Slide_Show" ID="{6C385283-380E-465F-B0C3-D954C58755D6}">
+					<ChildrenList>
+						<Action Name="" ID="{63861FB3-8B45-40C8-B2C9-B70C6027E7EA}" ShortID="728240260">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Slide_Show" ID="{6B784DBF-70A0-4B32-8295-2993B95119AB}" WorkUnitID="{3F6BDFCE-51D7-40A9-81C4-06EDC372A082}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Slide_Show" ID="{873E7EC0-2593-467D-89AC-988B9990EB2F}">
+					<ChildrenList>
+						<Action Name="" ID="{06E93B63-E91A-4A24-A839-38632857DA9A}" ShortID="470653545">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Slide_Show" ID="{6B784DBF-70A0-4B32-8295-2993B95119AB}" WorkUnitID="{3F6BDFCE-51D7-40A9-81C4-06EDC372A082}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Slide_Show_vocal" ID="{32AA07B0-0D48-441F-B775-3E7C8761514B}" ShortID="981498920">
+					<ChildrenList>
+						<Event Name="Stop_Rat_Voice_cleaned" ID="{E5773ADB-354C-4372-ADF8-BE97984BB31E}">
+							<ChildrenList>
+								<Action Name="" ID="{22CFC9CC-C0BE-4435-9EA5-52372AFA6A60}" ShortID="284476879">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rat Voice cleaned" ID="{DABEE444-D640-4686-A37C-C33FC65A4F6F}" WorkUnitID="{F5BA6A38-8D6E-4173-8A98-621C58AD497F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Rat_Voice_cleaned" ID="{586AD4A3-0BDC-4653-9DE0-83CF36ACD0B8}">
+							<ChildrenList>
+								<Action Name="" ID="{25A736A0-646B-44D4-BDFD-E7CEB5E483EC}" ShortID="523192661">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rat Voice cleaned" ID="{DABEE444-D640-4686-A37C-C33FC65A4F6F}" WorkUnitID="{F5BA6A38-8D6E-4173-8A98-621C58AD497F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

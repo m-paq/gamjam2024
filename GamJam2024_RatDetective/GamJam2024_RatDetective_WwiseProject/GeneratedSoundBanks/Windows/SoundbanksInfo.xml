@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{429A6FE0-C409-94CC-3142-244E395E9D45}">
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{7CC12A70-354A-B8D4-ADA9-2D664B189597}">
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
@@ -50,9 +50,17 @@
 					<ShortName>Chat denoised.wav</ShortName>
 					<CachePath>SFX/Chat denoised_55E242C3.wem</CachePath>
 				</File>
+				<File Id="197481301" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rat Voice cleaned.wav</ShortName>
+					<CachePath>SFX/Rat Voice cleaned_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="381737030" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rat_footstep_v2.wav</ShortName>
 					<CachePath>SFX/Rat_footstep_v2_1156E0AC.wem</CachePath>
+				</File>
+				<File Id="441443952" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>2nd_part_120bpm_slide_show.wav</ShortName>
+					<CachePath>SFX/2nd_part_120bpm_slide_show_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="469039578" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rat denoised.wav</ShortName>
@@ -65,6 +73,18 @@
 				<File Id="581385379" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rat_footstep_v2.wav</ShortName>
 					<CachePath>SFX/Rat_footstep_v2_FF51458C.wem</CachePath>
+				</File>
+				<File Id="598609665" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Loop_120bpm_Slide_Show.wav</ShortName>
+					<CachePath>SFX/Loop_120bpm_Slide_Show_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="611612269" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mid_120bpm_Slide_Show.wav</ShortName>
+					<CachePath>SFX/Mid_120bpm_Slide_Show_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="624515407" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Intro_120bpm_Slid_Show.wav</ShortName>
+					<CachePath>SFX/Intro_120bpm_Slid_Show_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="632241689" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chat denoised.wav</ShortName>
@@ -152,14 +172,29 @@
 						<MediaRef Id="906903380"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2173453881" Name="Play_Rat_Voice_cleaned" DurationType="OneShot" DurationMin="65.536" DurationMax="65.536">
+					<MediaRefs>
+						<MediaRef Id="197481301"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="206828617" Name="Play_SFX_bip_main_menu" DurationType="OneShot" DurationMin="0.10416361" DurationMax="0.15606907">
 					<MediaRefs>
 						<MediaRef Id="34121741"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3068833655" Name="Play_Slide_Show" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="441443952"/>
+						<MediaRef Id="598609665"/>
+						<MediaRef Id="611612269"/>
+						<MediaRef Id="624515407"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1837763790" Name="Stop_intro" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2683960267" Name="Stop_Rat_Voice_cleaned" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4107896697" Name="Stop_Slide_Show" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B1898330-47E2-7D5B-D66C-D41A922A479F}</FileHash>
+	<FileHash>{33912E53-C192-E3E5-6FDB-0447BB65B511}</FileHash>
 </SoundBanksInfo>

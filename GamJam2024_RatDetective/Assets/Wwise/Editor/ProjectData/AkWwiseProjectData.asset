@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 18a23e895bdb6c44b91cfd5f79d53dba
     GuidInternal: 
-    m_lastTime: -8584909715995726212
+    m_lastTime: -8584909747381873192
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6bda6ffd62462b4cbd7080f5257bb8ef
     GuidInternal: 
-    m_lastTime: -8584909715993244694
+    m_lastTime: -8584909694093386243
     List:
     - name: Master
       guid: e8be9611add24146a614515048207234
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a3c93540ca9a304dbb191b0153f0d3d6
     GuidInternal: 
-    m_lastTime: -8584909715998136279
+    m_lastTime: -8584909694093527894
     List:
     - name: Play_Cat_footsteps
       guid: 8e5dfb3fc6958e4a9131d7cce8684add
@@ -181,6 +181,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.8145912
       minDuration: 0.667986
+    - name: Play_Rat_Voice_cleaned
+      guid: a3d46a58dc0b53469de083cf36acd0b8
+      id: 2173453881
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Slide_Show_vocal
+        ObjectType: 4
+        guid: b007aa32480d1f44b7753e7c8761514b
+      - ElementName: Play_Rat_Voice_cleaned
+        ObjectType: 3
+        guid: a3d46a58dc0b53469de083cf36acd0b8
+      Path: Events\Default Work Unit\Slide_Show_vocal\Play_Rat_Voice_cleaned
+      maxAttenuation: 0
+      maxDuration: 65.536
+      minDuration: 65.536
     - name: Play_SFX_bip_main_menu
       guid: 516a7b09ca273f4f9808859035dd7939
       id: 206828617
@@ -198,6 +218,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.15606907
       minDuration: 0.10416361
+    - name: Play_Slide_Show
+      guid: 8352386c0e385f46b0c3d954c58755d6
+      id: 3068833655
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Play_Slide_Show
+        ObjectType: 3
+        guid: 8352386c0e385f46b0c3d954c58755d6
+      Path: Events\Default Work Unit\Play_Slide_Show
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Slide_Show_vocal
+      guid: b007aa32480d1f44b7753e7c8761514b
+      id: 1008976622
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Slide_Show_vocal
+        ObjectType: 4
+        guid: b007aa32480d1f44b7753e7c8761514b
+      Path: Events\Default Work Unit\Slide_Show_vocal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_intro
       guid: 826c02ca93513741b2d2cd55d3ef7991
       id: 1837763790
@@ -215,6 +269,43 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_Rat_Voice_cleaned
+      guid: db3a77e54c357243adf8be97984bb31e
+      id: 2683960267
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Slide_Show_vocal
+        ObjectType: 4
+        guid: b007aa32480d1f44b7753e7c8761514b
+      - ElementName: Stop_Rat_Voice_cleaned
+        ObjectType: 3
+        guid: db3a77e54c357243adf8be97984bb31e
+      Path: Events\Default Work Unit\Slide_Show_vocal\Stop_Rat_Voice_cleaned
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Slide_Show
+      guid: c07e3e8793257d4689ac988b9990eb2f
+      id: 4107896697
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Stop_Slide_Show
+        ObjectType: 3
+        guid: c07e3e8793257d4689ac988b9990eb2f
+      Path: Events\Default Work Unit\Stop_Slide_Show
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -227,7 +318,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 679f1dacdd8e2045a23f6f827b59bc9d
     GuidInternal: 
-    m_lastTime: -8584909715998094176
+    m_lastTime: -8584909747382921244
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -241,7 +332,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 90e669087d47774cbe6bd9f77a360959
     GuidInternal: 
-    m_lastTime: -8584909715993234545
+    m_lastTime: -8584909747380364401
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -255,7 +346,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: df1f3b3a24a80246a4d600d9a91e3a1d
     GuidInternal: 
-    m_lastTime: -8584909715993224479
+    m_lastTime: -8584909747380319288
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -269,10 +360,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 37a8f987862f714ab8e1899e7d23b9af
     GuidInternal: 
-    m_lastTime: -8584909715993214428
+    m_lastTime: -8584909747380299315
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000001100000012000000
+  ExpandedWaapiItemIds: 0500000006000000070000000e00000010000000110000001200000092000000930000009b000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
