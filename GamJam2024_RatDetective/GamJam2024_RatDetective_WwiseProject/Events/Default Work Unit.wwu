@@ -141,6 +141,85 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="winning_loosing" ID="{1BDFB213-E0DC-4951-82B1-93C63C7F81C1}" ShortID="235776558">
+					<ChildrenList>
+						<Event Name="Play_winning_music" ID="{3280DA0B-F258-46A3-B382-20C9BB940756}">
+							<ChildrenList>
+								<Action Name="" ID="{C29E8D14-ABDE-4CD8-A9CC-4F78D11611B7}" ShortID="877899740">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="winning music" ID="{8A564D40-C1FF-4646-81F5-192F4E7A2D01}" WorkUnitID="{37D127DF-F2B8-4772-B946-2EEEAD37D994}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_winning_music" ID="{1F931F8A-3F3E-4C17-9925-EF686189EE86}">
+							<ChildrenList>
+								<Action Name="" ID="{965F6CF8-67FA-40AA-B81C-C59BDD9EB540}" ShortID="88519852">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="winning music" ID="{8A564D40-C1FF-4646-81F5-192F4E7A2D01}" WorkUnitID="{37D127DF-F2B8-4772-B946-2EEEAD37D994}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Game_Over" ID="{21E64D0D-07AB-4076-B658-5D0C456CC14D}">
+							<ChildrenList>
+								<Action Name="" ID="{0594C517-9997-4245-ABE4-214CC22A8140}" ShortID="984575534">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Game_Over" ID="{E5FAEB61-7FA6-4412-8338-6A52247248EA}" WorkUnitID="{37D127DF-F2B8-4772-B946-2EEEAD37D994}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_Game_Over" ID="{7C85B548-16C8-4CD1-83DE-B860150702E2}">
+							<ChildrenList>
+								<Action Name="" ID="{154E010E-9524-4D50-AE12-BB680E04AC42}" ShortID="121696846">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Game_Over" ID="{E5FAEB61-7FA6-4412-8338-6A52247248EA}" WorkUnitID="{37D127DF-F2B8-4772-B946-2EEEAD37D994}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Rat_Voice_cleaned" ID="{2D6BE3AD-5224-4AB9-AB40-4F9B71F60825}">
+					<ChildrenList>
+						<Action Name="" ID="{0F8B68F2-2E1F-4B21-BED1-89C82CD7B392}" ShortID="1024431719">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rat Voice cleaned" ID="{DABEE444-D640-4686-A37C-C33FC65A4F6F}" WorkUnitID="{F5BA6A38-8D6E-4173-8A98-621C58AD497F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Rat_Voice_cleaned" ID="{89518D6C-20AB-4C11-91C6-D8F83E597C34}">
+					<ChildrenList>
+						<Action Name="" ID="{BF7CFE0E-1260-4C91-8E94-E48DC5C25356}" ShortID="679235186">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rat Voice cleaned" ID="{DABEE444-D640-4686-A37C-C33FC65A4F6F}" WorkUnitID="{F5BA6A38-8D6E-4173-8A98-621C58AD497F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
