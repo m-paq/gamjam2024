@@ -123,7 +123,7 @@
 											<Language>SFX</Language>
 											<AudioFile>2nd_part_120bpm_slide_show.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="441443952"/>
+												<MediaID ID="255446279"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -206,7 +206,7 @@
 											<Language>SFX</Language>
 											<AudioFile>Intro_120bpm_Slid_Show.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="624515407"/>
+												<MediaID ID="564006020"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -292,7 +292,7 @@
 											<Language>SFX</Language>
 											<AudioFile>Loop_120bpm_Slide_Show.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="598609665"/>
+												<MediaID ID="377008696"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -439,7 +439,7 @@
 											<Language>SFX</Language>
 											<AudioFile>Mid_120bpm_Slide_Show.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="611612269"/>
+												<MediaID ID="504766142"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>

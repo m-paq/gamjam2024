@@ -6,14 +6,12 @@
 				<SoundBank Name="Master" ID="{1196BEE8-D2AD-4641-A614-515048207234}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Stop_intro" ID="{CA026C82-5193-4137-B2D2-CD55D3EF7991}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Rat_Voice_cleaned" ID="{E5773ADB-354C-4372-ADF8-BE97984BB31E}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_footsteps" ID="{DE9B3C66-7413-458F-9163-160BCB4EBD11}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Rat_Voice_cleaned" ID="{586AD4A3-0BDC-4653-9DE0-83CF36ACD0B8}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Slide_Show" ID="{6C385283-380E-465F-B0C3-D954C58755D6}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Slide_Show" ID="{873E7EC0-2593-467D-89AC-988B9990EB2F}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cat_SFX" ID="{2118F4A3-13FC-4802-92E5-A34046913347}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cat_footsteps" ID="{3FFB5D8E-95C6-4A8E-9131-D7CCE8684ADD}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rat_Voice_cleaned" ID="{2D6BE3AD-5224-4AB9-AB40-4F9B71F60825}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_intro" ID="{555CC3F3-338F-4BEF-BCB3-57EE0874E8FA}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Rat_Voice_cleaned" ID="{89518D6C-20AB-4C11-91C6-D8F83E597C34}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_SFX" ID="{CBD94690-7AA2-4C82-9A41-F197DFC1EA95}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_bip_main_menu" ID="{097B6A51-27CA-4F3F-9808-859035DD7939}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
@@ -32,6 +30,16 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Stop_Loop_Gameplay" ID="{AE54F6E3-8AD5-472D-BA06-9189FA50E6D7}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Loop_Gameplay" ID="{E826C768-FD31-489E-AD96-89652F892707}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Win_loosing" ID="{4245C9D1-70A0-4E0C-A38F-04AA355FFE85}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_SFX_Game_Over" ID="{21E64D0D-07AB-4076-B658-5D0C456CC14D}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_winning_music" ID="{3280DA0B-F258-46A3-B382-20C9BB940756}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_winning_music" ID="{1F931F8A-3F3E-4C17-9925-EF686189EE86}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_SFX_Game_Over" ID="{7C85B548-16C8-4CD1-83DE-B860150702E2}" WorkUnitID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

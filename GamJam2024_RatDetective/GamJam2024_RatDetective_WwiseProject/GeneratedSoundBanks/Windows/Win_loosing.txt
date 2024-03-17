@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	687860980	Stop_winning_music			\Default Work Unit\winning_loosing\Stop_winning_music	
+	1343080434	Play_winning_music			\Default Work Unit\winning_loosing\Play_winning_music	
+	3051622183	Stop_SFX_Game_Over			\Default Work Unit\winning_loosing\Stop_SFX_Game_Over	
+	3418996765	Play_SFX_Game_Over			\Default Work Unit\winning_loosing\Play_SFX_Game_Over	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	279779403	winning music	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\winning music_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\winning_loosing\winning music\winning music		4608208
+	398914405	SFX_Game_Over	C:\Users\jguil\OneDrive\Documents\GitHub\gamjam2024\GamJam2024_RatDetective\GamJam2024_RatDetective_WwiseProject\.cache\Windows\SFX\SFX_Game_Over_FBC78EF0.wem		\Interactive Music Hierarchy\gameplay\winning_loosing\SFX_Game_Over\SFX_Game_Over		1287368
+
