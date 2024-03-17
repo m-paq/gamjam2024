@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Orientation
   - PlayerObj
+  - itemcounter
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,10 @@ TagManager:
   - Water
   - UI
   - Ground
+  - Target
   - WhatIsClimbable
-  - 
+  - PP
+  - Obstruction
   - 
   - 
   - 

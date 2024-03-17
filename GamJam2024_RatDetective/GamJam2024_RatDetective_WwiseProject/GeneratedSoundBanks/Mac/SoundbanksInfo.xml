@@ -120,6 +120,10 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
+		<SoundBank Id="1603840743" Type="User" Language="SFX" Hash="{1542B330-CB7F-945D-D527-F07811B3299C}">
+			<ShortName>Win_loosing</ShortName>
+			<Path>Win_loosing.bnk</Path>
+		</SoundBank>
 		<SoundBank Id="2312409955" Type="User" Language="SFX" Hash="{B9424FD7-AEFB-4E66-0BA5-EBE0116EB16A}">
 			<ShortName>Slideshow</ShortName>
 			<Path>Slideshow.bnk</Path>
@@ -292,5 +296,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1E9F25B5-A536-0CEE-8A68-6A0AB901F74E}</FileHash>
+	<FileHash>{88132065-BA1C-E66E-9851-25B62C159ED5}</FileHash>
 </SoundBanksInfo>

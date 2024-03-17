@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 0717dc436b97d049b1479a4ea6726197
     GuidInternal: 
-    m_lastTime: -8584909715993209390
+    m_lastTime: -8584909598131980921
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 18a23e895bdb6c44b91cfd5f79d53dba
     GuidInternal: 
-    m_lastTime: -8584909715995726212
+    m_lastTime: -8584909598134496965
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6bda6ffd62462b4cbd7080f5257bb8ef
     GuidInternal: 
-    m_lastTime: -8584909182260038465
+    m_lastTime: -8584909134359577808
     List:
     - name: Gameplay
       guid: 8eb7c60802a02144b0218894108660cd
@@ -110,6 +110,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: 48df509ed5155946b6532c467bf8e05f
       Path: SoundBanks\Default Work Unit\Slideshow
+    - name: Win_loosing
+      guid: d1c94542a0700c4ea38f04aa355ffe85
+      id: 1603840743
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6bda6ffd62462b4cbd7080f5257bb8ef
+      - ElementName: Win_loosing
+        ObjectType: 7
+        guid: d1c94542a0700c4ea38f04aa355ffe85
+      Path: SoundBanks\Default Work Unit\Win_loosing
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -122,7 +136,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a3c93540ca9a304dbb191b0153f0d3d6
     GuidInternal: 
-    m_lastTime: -8584909182275686766
+    m_lastTime: -8584909145060380665
     List:
     - name: Gameplay
       guid: 9ed7d4a645283546806cb8fc6818254d
@@ -246,6 +260,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.8145912
       minDuration: 0.667986
+    - name: Play_Rat_Voice_cleaned
+      guid: ade36b2d2452b94aab404f9b71f60825
+      id: 2173453881
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Play_Rat_Voice_cleaned
+        ObjectType: 3
+        guid: ade36b2d2452b94aab404f9b71f60825
+      Path: Events\Default Work Unit\Play_Rat_Voice_cleaned
+      maxAttenuation: 0
+      maxDuration: 65.536
+      minDuration: 65.536
     - name: Play_SFX_bip_main_menu
       guid: 516a7b09ca273f4f9808859035dd7939
       id: 206828617
@@ -263,6 +294,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.15606907
       minDuration: 0.10416361
+    - name: Play_SFX_Game_Over
+      guid: 0d4de621ab077640b6585d0c456cc14d
+      id: 3418996765
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: winning_loosing
+        ObjectType: 4
+        guid: 13b2df1bdce0514982b193c63c7f81c1
+      - ElementName: Play_SFX_Game_Over
+        ObjectType: 3
+        guid: 0d4de621ab077640b6585d0c456cc14d
+      Path: Events\Default Work Unit\winning_loosing\Play_SFX_Game_Over
+      maxAttenuation: 0
+      maxDuration: 7.2974606
+      minDuration: 7.2974606
     - name: Play_SlideShow_music
       guid: 27fbdf598812aa4d9b7f604a7913b270
       id: 4206773850
@@ -283,6 +334,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_winning_music
+      guid: 0bda803258f2a346b38220c9bb940756
+      id: 1343080434
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: winning_loosing
+        ObjectType: 4
+        guid: 13b2df1bdce0514982b193c63c7f81c1
+      - ElementName: Play_winning_music
+        ObjectType: 3
+        guid: 0bda803258f2a346b38220c9bb940756
+      Path: Events\Default Work Unit\winning_loosing\Play_winning_music
+      maxAttenuation: 0
+      maxDuration: 24
+      minDuration: 24
     - name: Slideshow
       guid: e34b560ea166624ebd99a1b7d7940725
       id: 2312409955
@@ -337,6 +408,43 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_Rat_Voice_cleaned
+      guid: 6c8d5189ab20114c91c6d8f83e597c34
+      id: 2683960267
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Stop_Rat_Voice_cleaned
+        ObjectType: 3
+        guid: 6c8d5189ab20114c91c6d8f83e597c34
+      Path: Events\Default Work Unit\Stop_Rat_Voice_cleaned
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_SFX_Game_Over
+      guid: 48b5857cc816d14c83deb860150702e2
+      id: 3051622183
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: winning_loosing
+        ObjectType: 4
+        guid: 13b2df1bdce0514982b193c63c7f81c1
+      - ElementName: Stop_SFX_Game_Over
+        ObjectType: 3
+        guid: 48b5857cc816d14c83deb860150702e2
+      Path: Events\Default Work Unit\winning_loosing\Stop_SFX_Game_Over
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_SlideShow_music
       guid: af068de4ffbe40448f7fdac90901581f
       id: 2271158744
@@ -357,6 +465,43 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_winning_music
+      guid: 8a1f931f3e3f174c9925ef686189ee86
+      id: 687860980
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: winning_loosing
+        ObjectType: 4
+        guid: 13b2df1bdce0514982b193c63c7f81c1
+      - ElementName: Stop_winning_music
+        ObjectType: 3
+        guid: 8a1f931f3e3f174c9925ef686189ee86
+      Path: Events\Default Work Unit\winning_loosing\Stop_winning_music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: winning_loosing
+      guid: 13b2df1bdce0514982b193c63c7f81c1
+      id: 3801437513
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: winning_loosing
+        ObjectType: 4
+        guid: 13b2df1bdce0514982b193c63c7f81c1
+      Path: Events\Default Work Unit\winning_loosing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -369,7 +514,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 679f1dacdd8e2045a23f6f827b59bc9d
     GuidInternal: 
-    m_lastTime: -8584909715998094176
+    m_lastTime: -8584909598136171774
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -383,7 +528,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 90e669087d47774cbe6bd9f77a360959
     GuidInternal: 
-    m_lastTime: -8584909715993234545
+    m_lastTime: -8584909598131996624
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -397,7 +542,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: df1f3b3a24a80246a4d600d9a91e3a1d
     GuidInternal: 
-    m_lastTime: -8584909715993224479
+    m_lastTime: -8584909598131996624
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -411,10 +556,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 37a8f987862f714ab8e1899e7d23b9af
     GuidInternal: 
-    m_lastTime: -8584909715993214428
+    m_lastTime: -8584909598131996624
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000e0000001200000013000000
+  ExpandedWaapiItemIds: 0500000006000000070000000e000000120000001600000017000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
