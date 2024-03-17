@@ -8,13 +8,6 @@ public class ItemCounterLogic : MonoBehaviour
     public TextMeshProUGUI textComponent; 
 
     private static int _itemCounter = 0;
-    public static bool win;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -26,7 +19,7 @@ public class ItemCounterLogic : MonoBehaviour
     {
         _itemCounter ++;
         if(_itemCounter == 5){
-            win = true;
+            EndScreenTransitionLogic.GameWon = true;
         }
     }
 }
