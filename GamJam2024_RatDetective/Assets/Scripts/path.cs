@@ -163,5 +163,14 @@ public class path : MonoBehaviour
         Gizmos.DrawLine(waypoints[cpt],waypoints[0]);
     }
 
+    private void OnTriggerEnter(Collider other) {
+
+        Debug.Log("Touched player");
+        if (other.gameObject.CompareTag("Player"))
+        {
+            EndScreenTransitionLogic.GameLost = true;
+        }
+    }
+
 }
 
