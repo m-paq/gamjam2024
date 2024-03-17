@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Orientation
+  - PlayerObj
+  - itemcounter
   layers:
   - Default
   - TransparentFX
@@ -13,6 +16,7 @@ TagManager:
   - UI
   - Ground
   - Target
+  - WhatIsClimbable
   - Obstruction
   - 
   - 

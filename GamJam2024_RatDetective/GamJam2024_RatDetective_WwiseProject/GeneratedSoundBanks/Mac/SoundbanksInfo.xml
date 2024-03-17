@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="89505537" Type="User" Language="SFX" Hash="{F61D4685-DE6C-6D7C-348B-FFA5C2E2185F}">
+			<ShortName>Gameplay</ShortName>
+			<Path>Gameplay.bnk</Path>
+			<Media>
+				<File Id="51728197" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>key 3.wav</ShortName>
+					<CachePath>SFX/key 3_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="110543134" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pluck.wav</ShortName>
+					<CachePath>SFX/pluck_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="200295602" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>fuckedup_hit_hat.wav</ShortName>
+					<CachePath>SFX/fuckedup_hit_hat_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="233568963" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Keys 1 end.wav</ShortName>
+					<CachePath>SFX/Keys 1 end_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="324432072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Keys 2 Mid.wav</ShortName>
+					<CachePath>SFX/Keys 2 Mid_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="371892851" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Basse Mid_90bpm.wav</ShortName>
+					<CachePath>SFX/Basse Mid_90bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="390218809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Atmosphere 3.wav</ShortName>
+					<CachePath>SFX/Atmosphere 3_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="394766038" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Atmosphere 1.wav</ShortName>
+					<CachePath>SFX/Atmosphere 1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="435686109" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pluck Mid.wav</ShortName>
+					<CachePath>SFX/pluck Mid_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="475490246" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Keys 2 end.wav</ShortName>
+					<CachePath>SFX/Keys 2 end_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="481546345" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>woush.wav</ShortName>
+					<CachePath>SFX/woush_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="503910463" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Atmosphere 2.wav</ShortName>
+					<CachePath>SFX/Atmosphere 2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="509087619" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gameplay_intro_90_intro.wav</ShortName>
+					<CachePath>SFX/Gameplay_intro_90_intro_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="821239879" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Basse Ending.wav</ShortName>
+					<CachePath>SFX/Basse Ending_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="833788703" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Flare.wav</ShortName>
+					<CachePath>SFX/Flare_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="868138579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>white noise.wav</ShortName>
+					<CachePath>SFX/white noise_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="960098570" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Key 1 Mid.wav</ShortName>
+					<CachePath>SFX/Key 1 Mid_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1178510115" Name="Play_Loop_Gameplay" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="51728197"/>
+						<MediaRef Id="110543134"/>
+						<MediaRef Id="200295602"/>
+						<MediaRef Id="233568963"/>
+						<MediaRef Id="324432072"/>
+						<MediaRef Id="371892851"/>
+						<MediaRef Id="390218809"/>
+						<MediaRef Id="394766038"/>
+						<MediaRef Id="435686109"/>
+						<MediaRef Id="475490246"/>
+						<MediaRef Id="481546345"/>
+						<MediaRef Id="503910463"/>
+						<MediaRef Id="509087619"/>
+						<MediaRef Id="821239879"/>
+						<MediaRef Id="833788703"/>
+						<MediaRef Id="868138579"/>
+						<MediaRef Id="960098570"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3309871493" Name="Stop_Loop_Gameplay" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B52AF47F-4C70-0FCE-D08E-99F172EC920C}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="2312409955" Type="User" Language="SFX" Hash="{B9424FD7-AEFB-4E66-0BA5-EBE0116EB16A}">
+			<ShortName>Slideshow</ShortName>
+			<Path>Slideshow.bnk</Path>
+			<Media>
+				<File Id="255446279" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>2nd_part_120bpm_slide_show.wav</ShortName>
+					<CachePath>SFX/2nd_part_120bpm_slide_show_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="377008696" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Loop_120bpm_Slide_Show.wav</ShortName>
+					<CachePath>SFX/Loop_120bpm_Slide_Show_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="504766142" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mid_120bpm_Slide_Show.wav</ShortName>
+					<CachePath>SFX/Mid_120bpm_Slide_Show_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="564006020" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Intro_120bpm_Slid_Show.wav</ShortName>
+					<CachePath>SFX/Intro_120bpm_Slid_Show_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4206773850" Name="Play_SlideShow_music" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="255446279"/>
+						<MediaRef Id="377008696"/>
+						<MediaRef Id="504766142"/>
+						<MediaRef Id="564006020"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2271158744" Name="Stop_SlideShow_music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{429A6FE0-C409-94CC-3142-244E395E9D45}">
+			<ShortName>Master</ShortName>
+			<Path>Master.bnk</Path>
+			<Media>
+				<File Id="34121741" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_menu_bip.wav</ShortName>
+					<CachePath>SFX/SFX_menu_bip_611D0FA5.wem</CachePath>
+				</File>
+				<File Id="76216242" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cat_footsteps.wav</ShortName>
+					<CachePath>SFX/Cat_footsteps_3FB2F8ED.wem</CachePath>
+				</File>
+				<File Id="132257061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rat denoised.wav</ShortName>
+					<CachePath>SFX/Rat denoised_F36A628E.wem</CachePath>
+				</File>
+				<File Id="138615431" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chat denoised.wav</ShortName>
+					<CachePath>SFX/Chat denoised_78B8820D.wem</CachePath>
+				</File>
+				<File Id="144366547" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rat denoised.wav</ShortName>
+					<CachePath>SFX/Rat denoised_C1D0EBA1.wem</CachePath>
+				</File>
+				<File Id="174974156" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chat denoised.wav</ShortName>
+					<CachePath>SFX/Chat denoised_55E242C3.wem</CachePath>
+				</File>
+				<File Id="381737030" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rat_footstep_v2.wav</ShortName>
+					<CachePath>SFX/Rat_footstep_v2_1156E0AC.wem</CachePath>
+				</File>
+				<File Id="469039578" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rat denoised.wav</ShortName>
+					<CachePath>SFX/Rat denoised_EA37E7C8.wem</CachePath>
+				</File>
+				<File Id="569627993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cat_footsteps.wav</ShortName>
+					<CachePath>SFX/Cat_footsteps_5138AB86.wem</CachePath>
+				</File>
+				<File Id="581385379" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rat_footstep_v2.wav</ShortName>
+					<CachePath>SFX/Rat_footstep_v2_FF51458C.wem</CachePath>
+				</File>
+				<File Id="632241689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chat denoised.wav</ShortName>
+					<CachePath>SFX/Chat denoised_0F509B8C.wem</CachePath>
+				</File>
+				<File Id="675193904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chat denoised.wav</ShortName>
+					<CachePath>SFX/Chat denoised_1C3334E6.wem</CachePath>
+				</File>
+				<File Id="720945588" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chat denoised.wav</ShortName>
+					<CachePath>SFX/Chat denoised_C57FB26E.wem</CachePath>
+				</File>
+				<File Id="749082593" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rat_footstep_v2.wav</ShortName>
+					<CachePath>SFX/Rat_footstep_v2_F5047E9E.wem</CachePath>
+				</File>
+				<File Id="906903380" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rat denoised.wav</ShortName>
+					<CachePath>SFX/Rat denoised_E1182052.wem</CachePath>
+				</File>
+				<File Id="913851649" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A et B.wav</ShortName>
+					<CachePath>SFX/A et B_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="930738643" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cat_footsteps.wav</ShortName>
+					<CachePath>SFX/Cat_footsteps_5D551A8E.wem</CachePath>
+				</File>
+				<File Id="955296772" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chat denoised.wav</ShortName>
+					<CachePath>SFX/Chat denoised_0D9A2256.wem</CachePath>
+				</File>
+				<File Id="984402340" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>intro_120bpm_4_4.wav</ShortName>
+					<CachePath>SFX/intro_120bpm_4_4_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="908492872" Name="RoomVerb (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="3334346886" Name="Play_Cat_footsteps" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="76216242"/>
+						<MediaRef Id="569627993"/>
+						<MediaRef Id="930738643"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3648992414" Name="Play_Cat_SFX" DurationType="OneShot" DurationMin="0.69177014" DurationMax="1.0604172">
+					<MediaRefs>
+						<MediaRef Id="138615431"/>
+						<MediaRef Id="174974156"/>
+						<MediaRef Id="632241689"/>
+						<MediaRef Id="675193904"/>
+						<MediaRef Id="720945588"/>
+						<MediaRef Id="955296772"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3103472528" Name="Play_intro" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="913851649"/>
+						<MediaRef Id="984402340"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="98439365" Name="Play_Player_footsteps" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="381737030"/>
+						<MediaRef Id="581385379"/>
+						<MediaRef Id="749082593"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="908492872"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="1581497221" Name="Play_Player_SFX" DurationType="OneShot" DurationMin="0.667986" DurationMax="1.8145912">
+					<MediaRefs>
+						<MediaRef Id="132257061"/>
+						<MediaRef Id="144366547"/>
+						<MediaRef Id="469039578"/>
+						<MediaRef Id="906903380"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="206828617" Name="Play_SFX_bip_main_menu" DurationType="OneShot" DurationMin="0.10416361" DurationMax="0.15606907">
+					<MediaRefs>
+						<MediaRef Id="34121741"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1837763790" Name="Stop_intro" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1E9F25B5-A536-0CEE-8A68-6A0AB901F74E}</FileHash>
+</SoundBanksInfo>

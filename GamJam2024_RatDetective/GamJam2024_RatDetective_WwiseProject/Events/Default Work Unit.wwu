@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{4035C9A3-9ACA-4D30-BB19-1B0153F0D3D6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_intro" ID="{555CC3F3-338F-4BEF-BCB3-57EE0874E8FA}">
+					<ChildrenList>
+						<Action Name="" ID="{B3F51EEC-C8E4-4B54-8861-B79AB67B81BE}" ShortID="705234345">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="intro" ID="{68DE1937-404E-4EFB-983B-A7A8AD4BFB52}" WorkUnitID="{F72AA08C-E239-42C4-9AFE-BFFC78B7B512}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_intro" ID="{CA026C82-5193-4137-B2D2-CD55D3EF7991}">
+					<ChildrenList>
+						<Action Name="" ID="{82F8A2D9-2663-483D-8FCA-D572E5DE7542}" ShortID="21313089">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="intro" ID="{68DE1937-404E-4EFB-983B-A7A8AD4BFB52}" WorkUnitID="{F72AA08C-E239-42C4-9AFE-BFFC78B7B512}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_bip_main_menu" ID="{097B6A51-27CA-4F3F-9808-859035DD7939}">
+					<ChildrenList>
+						<Action Name="" ID="{16C1B603-C28D-49A7-83A8-368962975058}" ShortID="843807436">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_bip_main_menu" ID="{6304991A-FE6E-42F5-813E-E6F71E4A423B}" WorkUnitID="{F5BA6A38-8D6E-4173-8A98-621C58AD497F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cat_SFX" ID="{2118F4A3-13FC-4802-92E5-A34046913347}">
+					<ChildrenList>
+						<Action Name="" ID="{F0B12536-4617-42F6-ABA9-CC5AF14605A2}" ShortID="41055436">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cat_SFX" ID="{FFD271FD-033E-4342-8185-512DE2836279}" WorkUnitID="{F5BA6A38-8D6E-4173-8A98-621C58AD497F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_SFX" ID="{CBD94690-7AA2-4C82-9A41-F197DFC1EA95}">
+					<ChildrenList>
+						<Action Name="" ID="{66F3BC58-D2CF-45F0-BE91-0F6A8D326406}" ShortID="893510756">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_SFX" ID="{65EA6DF4-73D6-4E2D-ABDE-565FC5A87F55}" WorkUnitID="{F5BA6A38-8D6E-4173-8A98-621C58AD497F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cat_footsteps" ID="{3FFB5D8E-95C6-4A8E-9131-D7CCE8684ADD}">
+					<ChildrenList>
+						<Action Name="" ID="{7977B745-775A-45E3-97F3-2BCBBC17ED52}" ShortID="115000536">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cat_footsteps" ID="{8DEE384A-4225-4F98-AE14-482359FB1BA1}" WorkUnitID="{F5BA6A38-8D6E-4173-8A98-621C58AD497F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_footsteps" ID="{DE9B3C66-7413-458F-9163-160BCB4EBD11}">
+					<ChildrenList>
+						<Action Name="" ID="{DC707ADA-9EE0-4F0A-8DF1-1E9FE336CA44}" ShortID="931072320">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_footsteps" ID="{30AB0F4A-D769-4631-84C3-56DDEECF9E15}" WorkUnitID="{F5BA6A38-8D6E-4173-8A98-621C58AD497F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Gameplay" ID="{A6D4D79E-2845-4635-806C-B8FC6818254D}" ShortID="273469840">
+					<ChildrenList>
+						<Event Name="Stop_Loop_Gameplay" ID="{AE54F6E3-8AD5-472D-BA06-9189FA50E6D7}">
+							<ChildrenList>
+								<Action Name="" ID="{CF358471-FAC9-4EF9-9D3E-FAD2092C3915}" ShortID="865970748">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Loop_Gameplay" ID="{5E7BB434-4585-4B55-BB1B-281EE8395E2E}" WorkUnitID="{37D127DF-F2B8-4772-B946-2EEEAD37D994}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Loop_Gameplay" ID="{E826C768-FD31-489E-AD96-89652F892707}">
+							<ChildrenList>
+								<Action Name="" ID="{8BC58492-7A9F-43F8-A48A-D51FDD149D2E}" ShortID="249268236">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Loop_Gameplay" ID="{5E7BB434-4585-4B55-BB1B-281EE8395E2E}" WorkUnitID="{37D127DF-F2B8-4772-B946-2EEEAD37D994}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Slideshow" ID="{0E564BE3-66A1-4E62-BD99-A1B7D7940725}" ShortID="697747525">
+					<ChildrenList>
+						<Event Name="Play_SlideShow_music" ID="{59DFFB27-1288-4DAA-9B7F-604A7913B270}">
+							<ChildrenList>
+								<Action Name="" ID="{E9C68863-BEF5-499A-AA49-910455982C2B}" ShortID="58945309">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SlideShow_music" ID="{E08D59B6-5D81-4B2C-8601-FB0CCFF65658}" WorkUnitID="{F65A9DC2-19AD-47E3-9321-CEF88CA8D54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SlideShow_music" ID="{E48D06AF-BEFF-4440-8F7F-DAC90901581F}">
+							<ChildrenList>
+								<Action Name="" ID="{DDCFAF13-EFBC-4250-A11B-C06F5C0BC692}" ShortID="13838346">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SlideShow_music" ID="{E08D59B6-5D81-4B2C-8601-FB0CCFF65658}" WorkUnitID="{F65A9DC2-19AD-47E3-9321-CEF88CA8D54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
