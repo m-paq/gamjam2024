@@ -1,12 +1,18 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class path : MonoBehaviour
 {
 
-    public GameObject rat;
+    public NavMeshAgent ennemy;
+    private Transform player;
+
+    public FieldOfView fieldOfView;
+    private GameObject rat;
     public GameObject cat;
     public float speed;
     public float pauseDuration= 3f;
@@ -18,12 +24,22 @@ public class path : MonoBehaviour
 
     private bool isInitialized = false;
 
+    void Start(){
+        rat = GameObject.FindGameObjectWithTag("Player");
+        player= rat.transform;
+    }
     // Update is called once per frame
     void Update()
     {
-        if (!isPaused)
+        if (!isPaused && !fieldOfView.canSeePlayer)
         {
             MoveTowardsDestination();
+        }
+        if(fieldOfView.canSeePlayer){
+            followPlayer();
+        }
+        else{
+            cancelFollowPlayer();
         }
         
         
@@ -34,10 +50,14 @@ public class path : MonoBehaviour
    // }
 
     void MoveTowardsDestination(){
-       /* if (!isInitialized)
+      //  ennemy.updatePosition = true;
+        if (!isInitialized)
             {
-                InitializeDirection();
-            }*/
+                moveHeadTowardsDirection();
+                isInitialized=true;
+             
+            }
+        
 
 
         Vector3 destination = waypoints[index]; //.transform.position;
@@ -48,7 +68,7 @@ public class path : MonoBehaviour
 
         float distance = Vector3.Distance(transform.position, destination);
         
-        if( distance <= 0.01){
+        if( distance <= 0.15){
             StartCoroutine(PauseBeforeNextMove());
             moveHeadTowardsDirection();
             
@@ -65,22 +85,23 @@ public class path : MonoBehaviour
 
     }
 
-
     void followPlayer(){
-        cat.transform.position = Vector3.MoveTowards(cat.transform.position, rat.transform.position, speed * 2);
+        //ennemy.updatePosition = true;
+        ennemy.SetDestination(player.position);
+        
+    }
+
+    void cancelFollowPlayer(){
+        ennemy.ResetPath();
     }
 
     void moveHeadTowardsDirection(){
+        Vector3 destination = waypoints[index];
+        Vector3 direction = cat.transform.position - destination;
 
-        
-
-        Vector3 destination = waypoints[index];//.transform.position;
-        Debug.Log( destination);
-        Vector3 direction = destination - cat.transform.position;
-
-        Quaternion rotation = Quaternion.LookRotation(direction);
+        //Quaternion rotation = Quaternion.LookRotation(direction);
         if(direction != Vector3.zero)
-        transform.forward = direction;
+             transform.right = direction;
     }
 
      IEnumerator PauseBeforeNextMove()
@@ -110,18 +131,6 @@ public class path : MonoBehaviour
         }
 
         Gizmos.DrawLine(waypoints[cpt],waypoints[0]);
-    }
-
-
-     void InitializeDirection()
-    {
-        Debug.Log("manger");
-        Vector3 destination = waypoints[0];
-        Vector3 direction = destination - cat.transform.position;
-        Debug.Log( destination);
-        Quaternion rotation = Quaternion.LookRotation(direction);
-        transform.rotation = rotation;
-        isInitialized = true;
     }
 
 }
