@@ -39,6 +39,7 @@ MonoBehaviour:
     guid: 18a23e895bdb6c44b91cfd5f79d53dba
     GuidInternal: 
     m_lastTime: -8584909747381873192
+    m_lastTime: -8584909747381873192
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -246,6 +247,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.8145912
       minDuration: 0.667986
+    - name: Play_Rat_Voice_cleaned
+      guid: a3d46a58dc0b53469de083cf36acd0b8
+      id: 2173453881
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Slide_Show_vocal
+        ObjectType: 4
+        guid: b007aa32480d1f44b7753e7c8761514b
+      - ElementName: Play_Rat_Voice_cleaned
+        ObjectType: 3
+        guid: a3d46a58dc0b53469de083cf36acd0b8
+      Path: Events\Default Work Unit\Slide_Show_vocal\Play_Rat_Voice_cleaned
+      maxAttenuation: 0
+      maxDuration: 65.536
+      minDuration: 65.536
     - name: Play_SFX_bip_main_menu
       guid: 516a7b09ca273f4f9808859035dd7939
       id: 206828617

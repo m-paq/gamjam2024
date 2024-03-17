@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID PLAY_LOOP_GAMEPLAY = 1178510115U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
         static const AkUniqueID PLAY_PLAYER_SFX = 1581497221U;
+        static const AkUniqueID PLAY_RAT_VOICE_CLEANED = 2173453881U;
         static const AkUniqueID PLAY_SFX_BIP_MAIN_MENU = 206828617U;
         static const AkUniqueID PLAY_SLIDESHOW_MUSIC = 4206773850U;
         static const AkUniqueID STOP_INTRO = 1837763790U;

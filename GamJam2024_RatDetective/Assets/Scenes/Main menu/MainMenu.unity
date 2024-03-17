@@ -8717,7 +8717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newGameSceneName: 
-  quickSaveSlotID: 6
+  quickSaveSlotID: 2
   MainOptionsPanel: {fileID: 443590089}
   StartGameOptionsPanel: {fileID: 1502024977}
   GamePanel: {fileID: 512787264}
