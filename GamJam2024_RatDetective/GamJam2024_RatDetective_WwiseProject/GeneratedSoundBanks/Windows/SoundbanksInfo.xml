@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="89505537" Type="User" Language="SFX" Hash="{F61D4685-DE6C-6D7C-348B-FFA5C2E2185F}">
+		<SoundBank Id="89505537" Type="User" Language="SFX" Hash="{1F0F835A-F20D-BF58-FA3B-C9B0844F6952}">
 			<ShortName>Gameplay</ShortName>
 			<Path>Gameplay.bnk</Path>
 			<Media>
@@ -24,6 +24,10 @@
 				<File Id="200295602" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fuckedup_hit_hat.wav</ShortName>
 					<CachePath>SFX/fuckedup_hit_hat_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="233207683" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Buzzy Saw Lead.wav</ShortName>
+					<CachePath>SFX/Buzzy Saw Lead_B7A2A102.wem</CachePath>
 				</File>
 				<File Id="233568963" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Keys 1 end.wav</ShortName>
@@ -83,6 +87,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="3704232689" Name="Play_Buzzy_Saw_Lead" MaxAttenuation="5" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="233207683"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1178510115" Name="Play_Loop_Gameplay" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="51728197"/>
@@ -104,6 +113,7 @@
 						<MediaRef Id="960098570"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3857724651" Name="Stop_Buzzy_Saw_Lead" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3309871493" Name="Stop_Loop_Gameplay" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
@@ -330,5 +340,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BB2A42BD-BFDB-C3F6-01DA-E71238A8CA36}</FileHash>
+	<FileHash>{F6108540-B29A-CC8F-F059-942411352AFC}</FileHash>
 </SoundBanksInfo>

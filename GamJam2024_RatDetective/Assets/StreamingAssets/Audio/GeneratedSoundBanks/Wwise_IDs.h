@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BUZZY_SAW_LEAD = 3704232689U;
         static const AkUniqueID PLAY_CAT_FOOTSTEPS = 3334346886U;
         static const AkUniqueID PLAY_CAT_SFX = 3648992414U;
         static const AkUniqueID PLAY_INTRO = 3103472528U;
@@ -24,6 +25,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GAME_OVER = 3418996765U;
         static const AkUniqueID PLAY_SLIDESHOW_MUSIC = 4206773850U;
         static const AkUniqueID PLAY_WINNING_MUSIC = 1343080434U;
+        static const AkUniqueID STOP_BUZZY_SAW_LEAD = 3857724651U;
         static const AkUniqueID STOP_INTRO = 1837763790U;
         static const AkUniqueID STOP_LOOP_GAMEPLAY = 3309871493U;
         static const AkUniqueID STOP_RAT_VOICE_CLEANED = 2683960267U;

@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6bda6ffd62462b4cbd7080f5257bb8ef
     GuidInternal: 
-    m_lastTime: -8584909134359577808
+    m_lastTime: -8584909104997112673
     List:
     - name: Gameplay
       guid: 8eb7c60802a02144b0218894108660cd
@@ -136,7 +136,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a3c93540ca9a304dbb191b0153f0d3d6
     GuidInternal: 
-    m_lastTime: -8584909145060380665
+    m_lastTime: -8584909106631086435
     List:
     - name: Gameplay
       guid: 9ed7d4a645283546806cb8fc6818254d
@@ -153,6 +153,23 @@ MonoBehaviour:
         guid: 9ed7d4a645283546806cb8fc6818254d
       Path: Events\Default Work Unit\Gameplay
       maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Buzzy_Saw_Lead
+      guid: a7d0bd990bf59c46a8827c8c991cd354
+      id: 3704232689
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Play_Buzzy_Saw_Lead
+        ObjectType: 3
+        guid: a7d0bd990bf59c46a8827c8c991cd354
+      Path: Events\Default Work Unit\Play_Buzzy_Saw_Lead
+      maxAttenuation: 5
       maxDuration: -1
       minDuration: -1
     - name: Play_Cat_footsteps
@@ -371,6 +388,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_Buzzy_Saw_Lead
+      guid: 35e43da3f4b87c47b6beca292214bdc4
+      id: 3857724651
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a3c93540ca9a304dbb191b0153f0d3d6
+      - ElementName: Stop_Buzzy_Saw_Lead
+        ObjectType: 3
+        guid: 35e43da3f4b87c47b6beca292214bdc4
+      Path: Events\Default Work Unit\Stop_Buzzy_Saw_Lead
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_intro
       guid: 826c02ca93513741b2d2cd55d3ef7991
       id: 1837763790
@@ -559,7 +593,7 @@ MonoBehaviour:
     m_lastTime: -8584909598131996624
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000e000000120000001600000017000000
+  ExpandedWaapiItemIds: 050000000600000007000000080000000e00000012000000140000001500000016000000170000001800000019000000d4000000d50000000f01000010010000a6010000a7010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
