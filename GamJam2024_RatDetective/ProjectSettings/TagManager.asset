@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Orientation
   - PlayerObj
+  - itemcounter
   layers:
   - Default
   - TransparentFX
