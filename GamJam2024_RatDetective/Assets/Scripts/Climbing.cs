@@ -10,6 +10,8 @@ public class Climbing : MonoBehaviour
     public LayerMask whatIsClimbable;
     public ThirdPersonMovement tpm;
 
+    private Animator _animator;
+
     [Header("Climbing")]
     public float climbSpeed;
     public float maxClimbTime;
@@ -25,6 +27,15 @@ public class Climbing : MonoBehaviour
 
     private RaycastHit frontWallHit;
     private bool _wallHit;
+
+    private void Start() 
+    {
+        _animator = GetComponentInChildren<Animator>();  
+        if(_animator == null)
+        {
+            Debug.LogError("Can't find animator component");
+        }  
+    }
 
     private void Update() 
     {
@@ -67,6 +78,7 @@ public class Climbing : MonoBehaviour
     private void StartClimbing()
     {
         _climbing = true;
+        _animator.SetBool("Climbing", _climbing);
         tpm.Grounded = false;
     }
 
@@ -75,6 +87,8 @@ public class Climbing : MonoBehaviour
         if(_climbing)
         {
             _climbing = false;
+            _animator.SetBool("Climbing", _climbing);
+
         }
     }
 
