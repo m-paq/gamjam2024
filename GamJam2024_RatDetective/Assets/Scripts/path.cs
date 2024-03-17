@@ -24,18 +24,39 @@ public class path : MonoBehaviour
 
     private bool isInitialized = false;
 
+    private bool isWalking= false;
+
+    private bool isIdle= false;
+
+    private Animator _animator;
+    
+
     void Start(){
         rat = GameObject.FindGameObjectWithTag("Player");
         player= rat.transform;
+
+        _animator = GetComponentInChildren<Animator>();
+        if(_animator == null)
+        {
+            Debug.LogError("Can't find animator component");
+        }
     }
     // Update is called once per frame
     void Update()
     {
         if (!isPaused && !fieldOfView.canSeePlayer)
         {
+            isWalking= true;
+            isIdle= false;
+            _animator.SetBool("isIdle", isIdle);
+            _animator.SetBool("isWalking", isWalking);
             MoveTowardsDestination();
         }
         if(fieldOfView.canSeePlayer){
+            isWalking= true;
+            isIdle= false;
+            _animator.SetBool("isIdle", isIdle);
+            _animator.SetBool("isWalking", isWalking);
             followPlayer();
         }
         else{
@@ -50,7 +71,9 @@ public class path : MonoBehaviour
    // }
 
     void MoveTowardsDestination(){
-      //  ennemy.updatePosition = true;
+        
+        isIdle= false;
+        isWalking= true;
         if (!isInitialized)
             {
                 moveHeadTowardsDirection();
@@ -58,7 +81,7 @@ public class path : MonoBehaviour
              
             }
         
-
+        isWalking= true;
 
         Vector3 destination = waypoints[index]; //.transform.position;
 
@@ -69,6 +92,11 @@ public class path : MonoBehaviour
         float distance = Vector3.Distance(transform.position, destination);
         
         if( distance <= 0.15){
+            isWalking= false;
+             isIdle = true;
+        
+            _animator.SetBool("isWalking", isWalking);
+             _animator.SetBool("isIdle", isIdle);
             StartCoroutine(PauseBeforeNextMove());
             moveHeadTowardsDirection();
             
@@ -106,6 +134,8 @@ public class path : MonoBehaviour
 
      IEnumerator PauseBeforeNextMove()
     {
+        
+        
         isPaused = true;
         yield return new WaitForSeconds(pauseDuration);
         isPaused = false;
